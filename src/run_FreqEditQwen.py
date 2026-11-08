@@ -32,7 +32,7 @@ use_adaptive_weight = True
 backward_steps = 4
 
 # Editing configuration
-idx = 3
+idx = 4
 start_edit_turn = 0
 final_edit_turn = 10
 
