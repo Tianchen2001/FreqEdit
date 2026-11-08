@@ -37,7 +37,7 @@ QG_lambda = 0.3
 guidance_scale = 3.5
 
 # Editing configuration
-idx = 3
+idx = 4
 start_edit_turn = 0
 final_edit_turn = 10
 

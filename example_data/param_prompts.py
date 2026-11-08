@@ -12,29 +12,42 @@ prompts1 = [
     ]
 
 prompts2 = [
-            "Change the background from white silk fabric to a flat surface of polished white marble with subtle grey veining, preserving the Marc Jacobs perfume bottle, the decorative charm cap, and keeping the exact same camera angle, position, and framing.",
-            "Tie a delicate gold chain necklace loosely around the neck of the perfume bottle, directly under the cap, while maintaining the exact position and appearance of the Marc Jacobs perfume bottle, its cap, and the white marble background.",
-            "Place some fresh, pink rose petals scattered around the base of the Marc Jacobs perfume bottle, keeping the bottle, the cap, the gold necklace, and the marble background.",
-            "Remove the coiled gold chain necklace from the scene, preserving the Marc Jacobs perfume bottle, the decorative charm cap, the pink rose petals, and the white marble background.",
-            "Replace the white marble background with a surface of light, unstained oak wood with a visible grain pattern, while keeping the Marc Jacobs perfume bottle, the cap, the rose petals, and the exact same camera angle and framing.",
-            "Add a single, perfect white pearl near the bottom left corner of the frame, keeping the Marc Jacobs perfume bottle, the cap, the rose petals, and the oak wood background.",
-            "Change the color of the rose petals from pink to a delicate cream-white color, while maintaining the Marc Jacobs perfume bottle, the cap, the white pearl, and the oak wood background.",
-            "Remove the single white pearl from the scene, preserving the Marc Jacobs perfume bottle, the cap, and the cream-white rose petals on the oak wood background.",
-            "Add a small, unlit, white unscented candle in a simple glass holder, placing it in the background behind the perfume bottle to the left, slightly out of focus, while keeping the perfume bottle, cap, petals, and the oak wood background.",
-            "Remove the cream-white rose petals from the scene, preserving the Marc Jacobs perfume bottle, the cap, the unlit candle, and the oak wood background.",
+    "Change the background from white silk fabric to a flat surface of polished white marble with subtle grey veining, preserving the Marc Jacobs perfume bottle, the decorative charm cap, and keeping the exact same camera angle, position, and framing.",
+    "Tie a delicate gold chain necklace loosely around the neck of the perfume bottle, directly under the cap, while maintaining the exact position and appearance of the Marc Jacobs perfume bottle, its cap, and the white marble background.",
+    "Place some fresh, pink rose petals scattered around the base of the Marc Jacobs perfume bottle, keeping the bottle, the cap, the gold necklace, and the marble background.",
+    "Remove the coiled gold chain necklace from the scene, preserving the Marc Jacobs perfume bottle, the decorative charm cap, the pink rose petals, and the white marble background.",
+    "Replace the white marble background with a surface of light, unstained oak wood with a visible grain pattern, while keeping the Marc Jacobs perfume bottle, the cap, the rose petals, and the exact same camera angle and framing.",
+    "Add a single, perfect white pearl near the bottom left corner of the frame, keeping the Marc Jacobs perfume bottle, the cap, the rose petals, and the oak wood background.",
+    "Change the color of the rose petals from pink to a delicate cream-white color, while maintaining the Marc Jacobs perfume bottle, the cap, the white pearl, and the oak wood background.",
+    "Remove the single white pearl from the scene, preserving the Marc Jacobs perfume bottle, the cap, and the cream-white rose petals on the oak wood background.",
+    "Add a small, unlit, white unscented candle in a simple glass holder, placing it in the background behind the perfume bottle to the left, slightly out of focus, while keeping the perfume bottle, cap, petals, and the oak wood background.",
+    "Remove the cream-white rose petals from the scene, preserving the Marc Jacobs perfume bottle, the cap, the unlit candle, and the oak wood background.",
 ]
 
 prompts3 = [
-        "Change the male skateboarder's tan bucket hat to a bright, fire-engine red color, while maintaining his clothing, pose, and the surrounding urban environment.",
-        "Add a black wristband with a small white logo to the male skateboarder’s right wrist, while maintaining his pose, clothing, and the overall urban environment.",
-        "Change the material of the male skateboarder's brown cargo pants to a dark-wash denim fabric, keeping the same loose fit and preserving his identity and the entire background.",
-        "Remove the person crouching in the background on the left, leaving only the empty pavement in that spot, while preserving the main male skateboarder and the rest of the scene.",
-        "Add a subtle white stripe running down the outer side of the male skateboarder’s pants, while keeping his red hat, pose, and all other elements of the image unchanged.",
-        "Replace the black and white skate shoes of the male skateboarder with high-top sneakers in a classic checkerboard pattern, keeping his pose and all other clothing intact.",
-        "Change the background from the urban apartment buildings to a vibrant, sunlit public park with lush green grass and large oak trees in the distance, while keeping the exact same camera angle, framing, and preserving the male skateboarder and the concrete ledge.",
-        "Add a decorative stone fountain with flowing water to the park background, positioned on the far left of the frame, preserving the male skateboarder, the ledge, and the overall composition.",
-        "Add a pair of reflective sunglasses on the male skateboarder’s face, ensuring they match his red hat and urban style, while keeping his clothing and body orientation unchanged.",
-        "Change the color of the light green wheels on the skateboard to a bright, neon orange, while preserving the board's deck and the male skateboarder's pose.",
-    ]
+    "Change the male skateboarder's tan bucket hat to a bright, fire-engine red color, while maintaining his clothing, pose, and the surrounding urban environment.",
+    "Add a black wristband with a small white logo to the male skateboarder’s right wrist, while maintaining his pose, clothing, and the overall urban environment.",
+    "Change the material of the male skateboarder's brown cargo pants to a dark-wash denim fabric, keeping the same loose fit and preserving his identity and the entire background.",
+    "Remove the person crouching in the background on the left, leaving only the empty pavement in that spot, while preserving the main male skateboarder and the rest of the scene.",
+    "Add a subtle white stripe running down the outer side of the male skateboarder’s pants, while keeping his red hat, pose, and all other elements of the image unchanged.",
+    "Replace the black and white skate shoes of the male skateboarder with high-top sneakers in a classic checkerboard pattern, keeping his pose and all other clothing intact.",
+    "Change the background from the urban apartment buildings to a vibrant, sunlit public park with lush green grass and large oak trees in the distance, while keeping the exact same camera angle, framing, and preserving the male skateboarder and the concrete ledge.",
+    "Add a decorative stone fountain with flowing water to the park background, positioned on the far left of the frame, preserving the male skateboarder, the ledge, and the overall composition.",
+    "Add a pair of reflective sunglasses on the male skateboarder’s face, ensuring they match his red hat and urban style, while keeping his clothing and body orientation unchanged.",
+    "Change the color of the light green wheels on the skateboard to a bright, neon orange, while preserving the board's deck and the male skateboarder's pose.",
+]
 
-prompts = [prompts1, prompts2, prompts3]
+prompts4 = [
+    "Change the color of the leftmost pear to a deep burgundy red, while preserving the shape and position of all the pears, the surface they rest on, and the plain background.",
+    "Add a single small green leaf attached to the stem of the burgundy pear, keeping all the other pears, the surface, and the plain background unchanged, and keeping the exact same camera angle, position, and framing.",
+    "Place a small white ceramic saucer in front of the pears near the bottom center of the frame, while preserving all the pears, the leaf on the burgundy pear, and the plain background.",
+    "Add a single shiny red cherry with a thin stem on the white ceramic saucer, keeping all the pears, the leaf on the burgundy pear, and the plain background unchanged.",
+    "Change the material of the white ceramic saucer to brushed silver metal, preserving its size and position, the cherry on it, all the pears, and the plain background.",
+    "Add a thin slice of pear with pale flesh lying flat on the surface to the right of the silver saucer, while preserving the existing pears, the silver saucer, the cherry, and the plain background.",
+    "Change the color of the rightmost pear to golden yellow with light brown speckles, keeping its shape and position, the other pears, the silver saucer, the cherry, and the plain background.",
+    "Replace the red cherry on the silver saucer with a small bunch of three green grapes, keeping the saucer, the pear slice, all the pears, and the plain background unchanged.",
+    "Add a folded linen napkin under the left side of the pear group, while preserving all the pears, the silver saucer with the grapes, the pear slice, and the plain background.",
+    "Add a small sprig of fresh mint beside the pear slice, keeping all the pears, the linen napkin, the silver saucer with the grapes, and the plain background, and keeping the exact same camera angle, position, and framing.",
+]
+
+prompts = [prompts1, prompts2, prompts3, prompts4]

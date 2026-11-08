@@ -22,7 +22,7 @@ seeds = [random.randint(0, 2**32 - 1) for _ in range(10)]
 print(seeds)
 
 # Editing configuration
-idx = 3
+idx = 4
 start_edit_turn = 0
 final_edit_turn = 10
 
