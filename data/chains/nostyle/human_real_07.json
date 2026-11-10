@@ -1,0 +1,17 @@
+{
+  "id": "human_real_07",
+  "tag": "human_real_007_Woman_Office_Storefront",
+  "init_prompt": "A photorealistic outdoor waist-up portrait of a smiling woman with long, voluminous, wavy brown hair falling over the shoulders and small gold hoop earrings, standing in front of a modern commercial building and facing the camera. The woman wears a black zip-up jacket with a small white embroidered logo on the left chest over a black V-neck top. Behind the woman is a storefront of large dark-gray-framed glass windows with frosted panels showing small round white logo decals, beside a light gray brick wall on the right, under soft daylight with gentle reflections of trees in the glass.",
+  "editing_prompts": [
+    "The small white embroidered logo on the left chest of the black jacket worn by the smiling woman with long wavy brown hair is removed, leaving plain black fabric, while maintaining the same facial features, hairstyle, smile, jacket, and overall appearance of the smiling woman with long wavy brown hair.",
+    "The round white logo decals on the frosted window panels behind the smiling woman with long wavy brown hair are removed, leaving clean, plain frosted glass, while maintaining the same facial features, hairstyle, smile, jacket, and overall appearance of the smiling woman with long wavy brown hair.",
+    "A delicate thin gold pendant necklace with a small round charm is added at the neckline of the smiling woman with long wavy brown hair, while maintaining the same facial features, hairstyle, smile, jacket, and overall appearance of the smiling woman with long wavy brown hair.",
+    "A small potted pink hydrangea plant in a white ceramic planter is added in the lower right foreground beside the smiling woman with long wavy brown hair, while maintaining the same facial features, hairstyle, smile, jacket, and overall appearance of the smiling woman with long wavy brown hair.",
+    "The small gold hoop earrings worn by the smiling woman with long wavy brown hair are removed, while maintaining the same facial features, hairstyle, smile, jacket, and overall appearance of the smiling woman with long wavy brown hair.",
+    "A white name badge with a thin gold border is added on the right chest of the jacket worn by the smiling woman with long wavy brown hair, while maintaining the same facial features, hairstyle, smile, jacket, and overall appearance of the smiling woman with long wavy brown hair.",
+    "A tall green potted olive tree in a black planter is added on the left side in front of the glass windows, while maintaining the same facial features, hairstyle, smile, jacket, and overall appearance of the smiling woman with long wavy brown hair.",
+    "The reflections of trees in the window glass behind the smiling woman with long wavy brown hair are removed, leaving clean frosted and clear glass panes, while maintaining the same facial features, hairstyle, smile, jacket, and overall appearance of the smiling woman with long wavy brown hair.",
+    "A black clipboard with white paper is added, held against the chest of the smiling woman with long wavy brown hair with the left arm, while maintaining the same facial features, hairstyle, smile, jacket, and overall appearance of the smiling woman with long wavy brown hair.",
+    "The potted pink hydrangea plant is removed from the lower right foreground, while maintaining the same facial features, hairstyle, smile, jacket, and overall appearance of the smiling woman with long wavy brown hair."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "human_real_04",
+  "tag": "human_real_004_Woman_Driftwood_Beach",
+  "init_prompt": "A photorealistic outdoor photo of a smiling woman with shoulder-length dark brown hair wearing large black cat-eye sunglasses, sitting on a long, bleached, pale gray driftwood log on a sandy beach with forearms resting on the knees. The woman wears a black short-sleeved V-neck T-shirt, slim medium-blue skinny jeans, and black flip-flops. Around the driftwood lie smooth gray boulders and coarse light tan sand scattered with small pebbles. Behind the woman, calm deep blue water with small ripples stretches to a straight horizon beneath a clear pale blue sky with thin wispy white clouds.",
+  "editing_prompts": [
+    "The large smooth gray boulder on the left behind the driftwood log is removed and replaced with continuous light tan sand, while maintaining the same facial features, hairstyle, sunglasses, outfit, sitting pose, and overall appearance of the smiling woman in black sunglasses.",
+    "A wide-brimmed natural straw sun hat with a black ribbon band is added on the head of the smiling woman in black sunglasses, while maintaining the same facial features, hairstyle, sunglasses, outfit, sitting pose, and overall appearance of the smiling woman in black sunglasses.",
+    "A woven natural seagrass beach tote bag with a rolled blue-and-white striped towel is added on the sand beside the driftwood log to the right of the smiling woman in black sunglasses, while maintaining the same facial features, hairstyle, sunglasses, outfit, sitting pose, and overall appearance of the smiling woman in black sunglasses.",
+    "The small dark rocks along the waterline on the left are removed, leaving smooth sand meeting the water, while maintaining the same facial features, hairstyle, sunglasses, outfit, sitting pose, and overall appearance of the smiling woman in black sunglasses.",
+    "A small brown-and-white sandpiper bird is added, standing on the sand in the lower left foreground near the driftwood log, while maintaining the same facial features, hairstyle, sunglasses, outfit, sitting pose, and overall appearance of the smiling woman in black sunglasses.",
+    "A clear glass water bottle is added, standing on the sand next to the tote bag, while maintaining the same facial features, hairstyle, sunglasses, outfit, sitting pose, and overall appearance of the smiling woman in black sunglasses.",
+    "The smaller driftwood branch lying on the right side of the main log is removed, leaving open sand, while maintaining the same facial features, hairstyle, sunglasses, outfit, sitting pose, and overall appearance of the smiling woman in black sunglasses.",
+    "A small white sailboat is added on the calm water in the far distance on the right, while maintaining the same facial features, hairstyle, sunglasses, outfit, sitting pose, and overall appearance of the smiling woman in black sunglasses.",
+    "A thin silver bangle bracelet is added on the left wrist of the smiling woman in black sunglasses, while maintaining the same facial features, hairstyle, sunglasses, outfit, sitting pose, and overall appearance of the smiling woman in black sunglasses.",
+    "The clear glass water bottle is removed from the sand, while maintaining the same facial features, hairstyle, sunglasses, outfit, sitting pose, and overall appearance of the smiling woman in black sunglasses."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "smooth_real_04",
+  "tag": "smooth_real_004_Cat_Watching_Soccer_TV",
+  "init_prompt": "A photorealistic indoor photo taken in a dimly lit room of a small cat sitting upright with the back to the camera, appearing as a dark silhouette with pointed ears, gazing at a large black flat-screen television. The bright television screen shows a soccer match on a striped green grass pitch with players in white, red-striped, and light blue kits, a crowd filling the stands, and advertising boards along the edge of the field. The television sits on a dark stand, and the top of the frame shows dark wallpaper with faint large gray floral patterns.",
+  "editing_prompts": [
+    "The dim room lighting is changed to soft, warm indoor lamp light so the room is gently visible, while keeping the exact same camera angle, position, and framing, and preserving the cat sitting in front of the television and the flat-screen television exactly as before.",
+    "A small white soccer ball toy with black pentagons is added on the television stand beside the cat sitting in front of the television, while keeping the cat sitting in front of the television and the flat-screen television with the soccer broadcast unchanged.",
+    "A small potted green trailing pothos plant is added on the left end of the television stand, while keeping the cat sitting in front of the television and the flat-screen television with the soccer broadcast unchanged.",
+    "The small glowing green indicator light on the lower right of the flat-screen television is removed, while keeping the cat sitting in front of the television and the flat-screen television with the soccer broadcast unchanged.",
+    "A soft round cream cushion is added beneath the cat sitting in front of the television on the television stand, while keeping the cat sitting in front of the television and the flat-screen television with the soccer broadcast unchanged.",
+    "A black remote control is added on the television stand in front of the pothos plant, while keeping the cat sitting in front of the television and the flat-screen television with the soccer broadcast unchanged.",
+    "The small soccer ball toy is removed from the television stand, while keeping the cat sitting in front of the television and the flat-screen television with the soccer broadcast unchanged.",
+    "A small framed family photo in a light wooden frame is added on the right end of the television stand, while keeping the cat sitting in front of the television and the flat-screen television with the soccer broadcast unchanged.",
+    "The black remote control is removed from the television stand, while keeping the cat sitting in front of the television and the flat-screen television with the soccer broadcast unchanged.",
+    "A small orange tabby kitten is added, sitting on the television stand to the right of the cat sitting in front of the television and also watching the screen, while keeping the cat sitting in front of the television and the flat-screen television with the soccer broadcast unchanged."
+  ]
+}

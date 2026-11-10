@@ -1,0 +1,17 @@
+{
+  "id": "textured_real_06",
+  "tag": "textured_real_006_Two_Sheep_Clover_Meadow",
+  "init_prompt": "A photorealistic outdoor photo of two young white sheep with thick, fluffy, creamy-white fleece, clean white faces, and pink-tinged ears, standing in a bright green grassy meadow dotted with small white clover blossoms. One sheep stands in the center facing the camera with one front leg raised mid-step and a small yellow ear tag, while a second sheep is partly visible at the right edge, also facing the camera. A few small dry orange leaves lie in the grass, and soft sunlight casts gentle shadows beneath the sheep.",
+  "editing_prompts": [
+    "A small fluffy white lamb is added, standing in the grass to the left of the white sheep in the center, while maintaining the same woolly fleece, faces, poses, and positions of the white sheep in the center and the second sheep at the right edge.",
+    "The small dry orange leaves in the grass are removed, leaving fresh green grass and clover, while maintaining the same woolly fleece, faces, poses, and positions of the white sheep in the center and the second sheep at the right edge.",
+    "Clusters of bright yellow buttercup flowers are added, scattered across the clover meadow, while maintaining the same woolly fleece, faces, poses, and positions of the white sheep in the center and the second sheep at the right edge.",
+    "A weathered light wooden split-rail fence is added running across the upper background of the meadow, while maintaining the same woolly fleece, faces, poses, and positions of the white sheep in the center and the second sheep at the right edge.",
+    "The second sheep at the right edge is removed, leaving only the white sheep in the center and the lamb in the meadow, while maintaining the same fleece, face, pose, and position of the white sheep in the center.",
+    "A black-and-white collie dog is added, sitting in the grass near the fence in the left background, while maintaining the same fleece, face, pose, and position of the white sheep in the center.",
+    "A small red-roofed wooden shed is added in the far right background behind the fence, while maintaining the same fleece, face, pose, and position of the white sheep in the center.",
+    "Some of the white clover blossoms in the immediate foreground are removed, leaving plain green grass, while maintaining the same fleece, face, pose, and position of the white sheep in the center.",
+    "A metal water trough is added on the grass to the right of the white sheep in the center, while maintaining the same fleece, face, pose, and position of the white sheep in the center.",
+    "The black-and-white collie dog is removed from the background, while maintaining the same fleece, face, pose, and position of the white sheep in the center."
+  ]
+}

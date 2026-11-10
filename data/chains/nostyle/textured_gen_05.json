@@ -1,0 +1,17 @@
+{
+  "id": "textured_gen_05",
+  "tag": "textured_gen_005_Green_Bench_Autumn_Park",
+  "init_prompt": "A photorealistic outdoor photo of a dark green painted wooden park bench with five horizontal slats and sturdy curved green legs, standing on the right side of a park path thickly covered in fallen dry orange, rust, and golden autumn leaves. Tall trees with dark trunks and bright yellow-orange foliage line the path, which recedes into a softly blurred background of misty green and golden trees under diffuse overcast daylight.",
+  "editing_prompts": [
+    "A folded red plaid wool blanket is added, draped over the right end of the dark green wooden park bench, while keeping the dark green wooden park bench completely unchanged in shape, color, slats, and position.",
+    "A white paper cup of hot coffee with a light curl of steam is added on the seat of the dark green wooden park bench next to the blanket, while keeping the dark green wooden park bench completely unchanged in shape, color, slats, and position.",
+    "The blurred white post on the left side of the path in the background is removed, while keeping the dark green wooden park bench completely unchanged in shape, color, slats, and position.",
+    "A small red squirrel holding an acorn is added, sitting on the leaf-covered path in front of the dark green wooden park bench, while keeping the dark green wooden park bench completely unchanged in shape, color, slats, and position.",
+    "An old-fashioned black iron park lamp post with a glowing lantern is added on the left side of the path behind the dark green wooden park bench, while keeping the dark green wooden park bench completely unchanged in shape, color, slats, and position.",
+    "The white paper cup of coffee is removed from the bench seat, while keeping the dark green wooden park bench completely unchanged in shape, color, slats, and position.",
+    "An open hardcover book with cream pages is added, resting on the seat of the dark green wooden park bench beside the plaid blanket, while keeping the dark green wooden park bench completely unchanged in shape, color, slats, and position.",
+    "A few orange maple leaves are added, gently falling through the air above the path, while keeping the dark green wooden park bench completely unchanged in shape, color, slats, and position.",
+    "The pile of fallen leaves directly beneath the dark green wooden park bench is removed, revealing the gray paved path, while keeping the dark green wooden park bench completely unchanged in shape, color, slats, and position.",
+    "The overcast daylight is changed to soft, warm autumn sunshine filtering through the trees, while keeping the exact same camera angle, position, and framing, and preserving the dark green wooden park bench, the blanket, the book, and the squirrel exactly as before."
+  ]
+}

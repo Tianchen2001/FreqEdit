@@ -1,0 +1,17 @@
+{
+  "id": "human_gen_04",
+  "tag": "human_gen_004_Woman_Raincoat_Beach",
+  "init_prompt": "A photorealistic full-body side-view photo of a young woman with dark brown hair tied in a low ponytail, walking barefoot to the right along wet, compact tan sand at the edge of the sea while gazing toward the water. The woman wears a long, loose, glossy bright lemon-yellow hooded raincoat with the hood down, elastic cuffs, and a side drawstring toggle, over slim black leggings. Small foamy white waves roll onto the shore on the left and center, the sea is a muted gray-green, and a low, dark tree-covered headland stretches along the distant horizon on the right beneath a flat, hazy, pale gray overcast sky.",
+  "editing_prompts": [
+    "The low dark tree-covered headland on the right horizon is removed, leaving an open, uninterrupted sea horizon, while maintaining the same facial features, hairstyle, yellow raincoat, walking pose, and overall appearance of the barefoot woman with a dark ponytail.",
+    "Three white seagulls with gray wings are added, gliding in the sky above the waves on the upper left, while maintaining the same facial features, hairstyle, yellow raincoat, walking pose, and overall appearance of the barefoot woman with a dark ponytail.",
+    "A wide-brimmed natural woven straw sun hat with a thin black ribbon band is added on the head of the barefoot woman with a dark ponytail, while maintaining the same facial features, hairstyle, yellow raincoat, walking pose, and overall appearance of the barefoot woman with a dark ponytail.",
+    "A pair of tan leather strappy sandals is added, held dangling by the straps in the left hand of the barefoot woman with a dark ponytail, while maintaining the same facial features, hairstyle, yellow raincoat, walking pose, and overall appearance of the barefoot woman with a dark ponytail.",
+    "A small white sailboat with a triangular sail is added on the sea far in the distance near the horizon, while maintaining the same facial features, hairstyle, yellow raincoat, walking pose, and overall appearance of the barefoot woman with a dark ponytail.",
+    "The small white pebble lying on the sand in the lower right corner is removed, leaving smooth wet sand, while maintaining the same facial features, hairstyle, yellow raincoat, walking pose, and overall appearance of the barefoot woman with a dark ponytail.",
+    "A line of small footprints is added in the wet sand behind the barefoot woman with a dark ponytail, trailing toward the left edge of the frame, while maintaining the same facial features, hairstyle, yellow raincoat, walking pose, and overall appearance of the barefoot woman with a dark ponytail.",
+    "A small pink-and-white scallop seashell is added on the sand in the lower right foreground, while maintaining the same facial features, hairstyle, yellow raincoat, walking pose, and overall appearance of the barefoot woman with a dark ponytail.",
+    "One of the three seagulls, the lowest seagull, is removed from the sky, while maintaining the same facial features, hairstyle, yellow raincoat, walking pose, and overall appearance of the barefoot woman with a dark ponytail.",
+    "The flat gray overcast sky is changed to a soft pale blue sky with light thin clouds, while keeping the exact same camera angle, position, and framing, and preserving the barefoot woman with a dark ponytail, the waves, the sailboat, and the shoreline exactly as before."
+  ]
+}

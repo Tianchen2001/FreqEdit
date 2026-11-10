@@ -1,0 +1,17 @@
+{
+  "id": "human_gen_08",
+  "tag": "human_gen_008_Gray_Haired_Man_Brick_Wall",
+  "init_prompt": "A photorealistic waist-up portrait of a middle-aged man with short, slightly tousled salt-and-pepper gray hair, a trimmed gray goatee, and a friendly closed-mouth smile, standing with arms crossed and facing the camera. The man wears a long-sleeved deep navy blue cotton button-up work shirt with two flap chest pockets, white buttons, and a light blue undershirt visible at the open collar. Behind the man is an evenly lit wall of bright orange-red rectangular bricks laid in a running bond pattern with light gray mortar lines.",
+  "editing_prompts": [
+    "A pair of thin silver-framed rectangular eyeglasses is added on the face of the gray-haired man with a goatee, while maintaining the same facial features, gray hair, goatee, blue shirt, crossed arms, and overall appearance of the gray-haired man with a goatee.",
+    "A brown leather wristwatch with a round silver face is added on the left wrist of the gray-haired man with a goatee, visible above the crossed arms, while maintaining the same facial features, gray hair, goatee, blue shirt, crossed arms, and overall appearance of the gray-haired man with a goatee.",
+    "A small round brass house number plaque is added on the brick wall to the upper left of the gray-haired man with a goatee, while maintaining the same facial features, gray hair, goatee, blue shirt, crossed arms, and overall appearance of the gray-haired man with a goatee.",
+    "The light blue undershirt visible at the open collar of the gray-haired man with a goatee is removed, showing a plain open collar, while maintaining the same facial features, gray hair, goatee, blue shirt, and overall appearance of the gray-haired man with a goatee.",
+    "A black metal outdoor wall lantern with clear glass panels is added on the brick wall to the upper right of the gray-haired man with a goatee, while maintaining the same facial features, gray hair, goatee, blue shirt, crossed arms, and overall appearance of the gray-haired man with a goatee.",
+    "A yellow pencil is added, tucked behind the right ear of the gray-haired man with a goatee, while maintaining the same facial features, gray hair, goatee, blue shirt, crossed arms, and overall appearance of the gray-haired man with a goatee.",
+    "The small brass house number plaque is removed from the brick wall, leaving clean brick, while maintaining the same facial features, gray hair, goatee, blue shirt, crossed arms, and overall appearance of the gray-haired man with a goatee.",
+    "A climbing green ivy vine is added, growing along the right edge of the brick wall, while maintaining the same facial features, gray hair, goatee, blue shirt, crossed arms, and overall appearance of the gray-haired man with a goatee.",
+    "A small white enamel pin shaped like a star is added on the left chest pocket of the gray-haired man with a goatee, while maintaining the same facial features, gray hair, goatee, blue shirt, crossed arms, and overall appearance of the gray-haired man with a goatee.",
+    "The even daylight on the brick wall is changed to soft, warm late-afternoon sunlight, while keeping the exact same camera angle, position, and framing, and preserving the gray-haired man with a goatee, the lantern, and the ivy exactly as before."
+  ]
+}

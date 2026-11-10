@@ -1,0 +1,17 @@
+{
+  "id": "textured_gen_08",
+  "tag": "textured_gen_008_Succulent_Mossy_Stone",
+  "init_prompt": "A photorealistic close-up photo of a small rosette succulent with plump, pointed, pale mint-green leaves tipped with soft pink edges, planted in a small orange-brown terracotta pot with a thick rolled rim, standing on a weathered gray stone ledge covered in patches of bright green moss. Warm sunlight from the left highlights the leaves and casts a soft shadow to the right. The background is a dreamy, softly blurred green forest bokeh with round light circles.",
+  "editing_prompts": [
+    "A tiny ladybug with a red shell and black dots is added on the mossy stone ledge in front of the green succulent in the terracotta pot, while keeping the green succulent in the terracotta pot completely unchanged in leaves, pot, and position.",
+    "A small cluster of tiny white star-shaped wildflowers is added, growing from the moss patch to the right of the green succulent in the terracotta pot, while keeping the green succulent in the terracotta pot completely unchanged in leaves, pot, and position.",
+    "The moss patch in the lower left corner of the stone ledge is removed, leaving bare weathered stone, while keeping the green succulent in the terracotta pot completely unchanged in leaves, pot, and position.",
+    "A second, smaller terracotta pot holding a round green cactus is added on the stone ledge to the left of the green succulent in the terracotta pot, while keeping the green succulent in the terracotta pot completely unchanged in leaves, pot, and position.",
+    "A few small smooth white pebbles are added on the stone ledge around the base of the terracotta pot, while keeping the green succulent in the terracotta pot completely unchanged in leaves, pot, and position.",
+    "The tiny ladybug is removed from the stone ledge, while keeping the green succulent in the terracotta pot completely unchanged in leaves, pot, and position.",
+    "A small brown garden snail is added, crawling on the moss at the right edge of the ledge, while keeping the green succulent in the terracotta pot completely unchanged in leaves, pot, and position.",
+    "A small hand-written wooden plant label is added, stuck into the soil beside the cactus, while keeping the green succulent in the terracotta pot completely unchanged in leaves, pot, and position.",
+    "The small cactus in the second terracotta pot is removed together with the pot, while keeping the green succulent in the terracotta pot completely unchanged in leaves, pot, and position.",
+    "The small brown garden snail is removed from the moss, while keeping the green succulent in the terracotta pot completely unchanged in leaves, pot, and position."
+  ]
+}

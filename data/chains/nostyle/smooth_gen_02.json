@@ -1,0 +1,17 @@
+{
+  "id": "smooth_gen_02",
+  "tag": "smooth_gen_002_Red_Umbrella_Beach",
+  "init_prompt": "A photorealistic minimalist landscape photo with a single bright cherry-red beach umbrella with a thin dark pole, planted slightly tilted into a wide, flat stretch of fine pale beige sand in the lower center-right of the frame, with a small dark shadow beneath. The sand fills the lower fifth of the image with a few tiny dark pebbles, and above the sand a vast, clear, cloudless sky graduates from deep cerulean blue at the top to pale aqua near the horizon.",
+  "editing_prompts": [
+    "A white wooden folding beach lounge chair with a blue-and-white striped canvas seat is added on the sand to the left of the red beach umbrella, while keeping the red beach umbrella completely unchanged in shape, color, size, and position.",
+    "A rolled yellow beach towel and a woven straw beach bag are added on the sand beside the lounge chair, while keeping the red beach umbrella completely unchanged in shape, color, size, and position.",
+    "The small dark pebbles scattered across the sand are removed, leaving smooth pale beige sand, while keeping the red beach umbrella completely unchanged in shape, color, size, and position.",
+    "The small white post standing on the sand to the right of the red beach umbrella is removed, while keeping the red beach umbrella completely unchanged in shape, color, size, and position.",
+    "A few soft white cumulus clouds are added in the upper part of the blue sky, while keeping the red beach umbrella completely unchanged in shape, color, size, and position.",
+    "A red-and-white striped beach ball is added on the sand in the lower right foreground, while keeping the red beach umbrella completely unchanged in shape, color, size, and position.",
+    "Three white seagulls with spread wings are added, flying in the blue sky to the upper left, while keeping the red beach umbrella completely unchanged in shape, color, size, and position.",
+    "The woven straw beach bag is removed from the sand, leaving only the rolled yellow towel, while keeping the red beach umbrella completely unchanged in shape, color, size, and position.",
+    "A small pink plastic sand bucket with a yellow shovel is added on the sand near the beach ball, while keeping the red beach umbrella completely unchanged in shape, color, size, and position.",
+    "The red-and-white striped beach ball is removed from the sand, while keeping the red beach umbrella completely unchanged in shape, color, size, and position."
+  ]
+}

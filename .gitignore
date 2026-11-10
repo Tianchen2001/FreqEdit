@@ -64,3 +64,9 @@ lightning_logs/
 *.swp
 *.swo
 
+
+generated_candidates/
+gedit_raw/
+overview/
+output*/
+data/real/raw/

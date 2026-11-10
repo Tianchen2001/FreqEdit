@@ -1,0 +1,17 @@
+{
+  "id": "smooth_gen_01",
+  "tag": "smooth_gen_001_White_Vase_Wooden_Shelf",
+  "init_prompt": "A photorealistic minimalist still-life photo of a glossy white, round, bulbous ceramic vase with a short narrow neck and small opening, standing on the right end of a light natural pine wooden console shelf with visible fine wood grain. The background is a plain, smooth, matte off-white wall with a subtle warm-to-cool gradient, lit by soft diffused daylight from the left, casting a faint soft shadow to the right of the vase.",
+  "editing_prompts": [
+    "A small stack of two linen-bound books in muted sage and cream tones is added on the left half of the pine wooden shelf, while keeping the glossy white round ceramic vase completely unchanged in shape, color, glaze, and position.",
+    "A small trailing green ivy plant in a terracotta pot is added on top of the stack of linen-bound books, while keeping the glossy white round ceramic vase completely unchanged in shape, color, glaze, and position.",
+    "A round mirror with a thin natural oak frame is added, hanging on the wall above the left half of the shelf, while keeping the glossy white round ceramic vase completely unchanged in shape, color, glaze, and position.",
+    "The soft shadow cast on the wall to the right of the glossy white round ceramic vase is removed, leaving an evenly lit wall, while keeping the glossy white round ceramic vase completely unchanged in shape, color, glaze, and position.",
+    "A small white ceramic candle holder with a cream beeswax candle is added on the shelf between the books and the glossy white round ceramic vase, while keeping the glossy white round ceramic vase completely unchanged in shape, color, glaze, and position.",
+    "A small brass incense dish is added on the shelf in front of the stack of books, while keeping the glossy white round ceramic vase completely unchanged in shape, color, glaze, and position.",
+    "The trailing ivy plant in the terracotta pot is removed from the top of the books, while keeping the glossy white round ceramic vase completely unchanged in shape, color, glaze, and position.",
+    "A single dried pampas grass stem in a slim clear glass bottle is added on the shelf to the left of the candle holder, while keeping the glossy white round ceramic vase completely unchanged in shape, color, glaze, and position.",
+    "The brass incense dish is removed from the shelf, while keeping the glossy white round ceramic vase completely unchanged in shape, color, glaze, and position.",
+    "The soft diffused light is changed to gentle warm morning sunlight from the left, while keeping the exact same camera angle, position, and framing, and preserving the glossy white round ceramic vase, the books, the mirror, and the candle exactly as before."
+  ]
+}

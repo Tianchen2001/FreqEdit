@@ -1,0 +1,17 @@
+{
+  "id": "smooth_real_01",
+  "tag": "smooth_real_001_Cream_Lounge_Minimal_Room",
+  "init_prompt": "A photorealistic minimalist interior photo of a bright, all-cream room with smooth matte off-white walls meeting at a corner and a seamless pale cream floor. On the left sits a low, slouchy cream-white upholstered lounge chair with a soft beige linen throw draped over the seat. On the right sits a plump, rounded beige velvet modular armchair made of puffy tufted segments with small dark button details and short black feet. Soft daylight streaming from the left casts dappled, blurred leaf and branch shadows across the left wall.",
+  "editing_prompts": [
+    "A small round travertine stone side table is added on the floor between the cream-white low lounge chair on the left and the beige velvet tufted armchair on the right, while keeping the cream-white low lounge chair on the left and the beige velvet tufted armchair on the right unchanged.",
+    "The beige linen throw draped over the seat of the cream-white low lounge chair on the left is removed, while keeping the cream-white low lounge chair on the left and the beige velvet tufted armchair on the right unchanged.",
+    "A tall dried pampas grass arrangement in a cream ceramic floor vase is added in the back corner of the room, while keeping the cream-white low lounge chair on the left and the beige velvet tufted armchair on the right unchanged.",
+    "A stack of two coffee table books with a small white ceramic bowl on top is added on the travertine side table, while keeping the cream-white low lounge chair on the left and the beige velvet tufted armchair on the right unchanged.",
+    "The dappled leaf shadows on the left wall are removed, leaving evenly lit, smooth walls, while keeping the cream-white low lounge chair on the left and the beige velvet tufted armchair on the right unchanged.",
+    "A round cream bouclé rug is added on the floor beneath both chairs, while keeping the cream-white low lounge chair on the left and the beige velvet tufted armchair on the right unchanged.",
+    "A soft sage green cushion is added, resting on the seat of the beige velvet tufted armchair on the right, while keeping the shape and fabric of the cream-white low lounge chair on the left and the beige velvet tufted armchair on the right unchanged.",
+    "The small white ceramic bowl is removed from the top of the books, while keeping the cream-white low lounge chair on the left and the beige velvet tufted armchair on the right unchanged.",
+    "A large framed abstract print in soft beige and white tones is added, hanging on the back wall between the two chairs, while keeping the cream-white low lounge chair on the left and the beige velvet tufted armchair on the right unchanged.",
+    "The pampas grass arrangement and floor vase are removed from the corner, while keeping the cream-white low lounge chair on the left and the beige velvet tufted armchair on the right unchanged."
+  ]
+}

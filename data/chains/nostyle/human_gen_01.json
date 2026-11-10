@@ -1,0 +1,17 @@
+{
+  "id": "human_gen_01",
+  "tag": "human_gen_001_Woman_City_Sidewalk",
+  "init_prompt": "A photorealistic three-quarter-length portrait of a young woman with long, wavy, chestnut-brown hair parted to one side, standing on a wide gray stone-paved city sidewalk with both hands tucked into the pockets of a knee-length navy blue double-breasted wool coat with large black buttons and wide notched lapels, worn over a black ribbed turtleneck sweater; the woman has a soft closed-mouth smile and looks directly at the camera. On the right side stands a tall beige limestone building facade with dark recessed doorways and a black cylindrical trash bin; on the left, a row of dark parked cars lines the curb beside black cast-iron street lamps with white globe lights, and red-brick multistory buildings recede into the distance under a pale overcast gray sky, with a shallow depth of field blurring the background.",
+  "editing_prompts": [
+    "The row of dark parked cars along the left curb is removed, leaving an empty gray asphalt street lane, while maintaining the same facial features, hairstyle, coat, and overall appearance of the woman with long wavy brown hair.",
+    "The black cylindrical trash bin beside the limestone building is removed, leaving clean stone sidewalk, while maintaining the same facial features, hairstyle, coat, and overall appearance of the woman with long wavy brown hair.",
+    "A small structured burgundy leather shoulder bag with a thin gold chain strap is added, hanging from the right shoulder of the woman with long wavy brown hair, while maintaining the same facial features, hairstyle, coat, and overall appearance of the woman with long wavy brown hair.",
+    "A small fluffy white dog with a bright red leather collar is added, sitting on the sidewalk beside the left foot of the woman with long wavy brown hair, while maintaining the same facial features, hairstyle, coat, and overall appearance of the woman with long wavy brown hair.",
+    "A long rectangular wooden planter box filled with bright red geraniums is added along the base of the limestone building on the right, while maintaining the same facial features, hairstyle, coat, and overall appearance of the woman with long wavy brown hair.",
+    "The nearest black street lamp on the left side of the sidewalk is removed, leaving open sidewalk, while maintaining the same facial features, hairstyle, coat, and overall appearance of the woman with long wavy brown hair.",
+    "A soft cream-white chunky knitted wool scarf is added, loosely draped around the neck of the woman with long wavy brown hair, while maintaining the same facial features, hairstyle, coat, and overall appearance of the woman with long wavy brown hair.",
+    "A pastel mint green city bicycle with a wicker front basket is added, leaning against the limestone wall behind the woman with long wavy brown hair, while maintaining the same facial features, hairstyle, coat, and overall appearance of the woman with long wavy brown hair.",
+    "A few fallen golden-yellow autumn leaves are added, scattered across the gray stone sidewalk, while maintaining the same facial features, hairstyle, coat, and overall appearance of the woman with long wavy brown hair.",
+    "The flat overcast light is changed to soft, warm late-afternoon daylight, while keeping the exact same camera angle, position, and framing, and preserving the woman with long wavy brown hair, the dog, the bicycle, and the planter exactly as before."
+  ]
+}

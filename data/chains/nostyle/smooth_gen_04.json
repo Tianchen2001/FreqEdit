@@ -1,0 +1,17 @@
+{
+  "id": "smooth_gen_04",
+  "tag": "smooth_gen_004_Yellow_Armchair_Beige_Room",
+  "init_prompt": "A photorealistic interior photo of a mid-century modern armchair upholstered in smooth mustard yellow fabric with a loose back cushion, a thick seat cushion, flared sloping arms, and four dark brown tapered wooden legs, positioned in the right half of the frame and angled slightly toward the left. The armchair stands on a glossy polished cream floor reflecting the chair, in front of a plain warm beige wall with a slim cream baseboard, lit by warm soft light creating a subtle gradient across the wall.",
+  "editing_prompts": [
+    "A round woven jute rug in natural tan is added on the floor beneath the mustard yellow upholstered armchair, while keeping the mustard yellow upholstered armchair completely unchanged in shape, fabric, color, legs, and position.",
+    "A small round walnut side table holding a white ceramic cup is added to the right of the mustard yellow upholstered armchair, while keeping the mustard yellow upholstered armchair completely unchanged in shape, fabric, color, legs, and position.",
+    "A slim brass floor lamp with a white linen drum shade is added to the left of the mustard yellow upholstered armchair, while keeping the mustard yellow upholstered armchair completely unchanged in shape, fabric, color, legs, and position.",
+    "The reflection of the mustard yellow upholstered armchair on the glossy cream floor is removed, leaving a clean matte-looking floor surface, while keeping the mustard yellow upholstered armchair completely unchanged in shape, fabric, color, legs, and position.",
+    "A large framed abstract art print with soft terracotta and cream shapes in a thin black frame is added on the wall above the mustard yellow upholstered armchair, while keeping the mustard yellow upholstered armchair completely unchanged in shape, fabric, color, legs, and position.",
+    "A tall green fiddle-leaf fig plant in a white ceramic planter is added in the far left corner of the room, while keeping the mustard yellow upholstered armchair completely unchanged in shape, fabric, color, legs, and position.",
+    "The slim cream baseboard along the bottom of the wall is removed, leaving the wall meeting the floor directly, while keeping the mustard yellow upholstered armchair completely unchanged in shape, fabric, color, legs, and position.",
+    "A small stack of two art books is added on the walnut side table beside the white cup, while keeping the mustard yellow upholstered armchair completely unchanged in shape, fabric, color, legs, and position.",
+    "The slim brass floor lamp is removed, leaving open space to the left of the mustard yellow upholstered armchair, while keeping the mustard yellow upholstered armchair completely unchanged in shape, fabric, color, legs, and position.",
+    "A woven rattan magazine basket holding rolled magazines is added on the rug in front of the walnut side table, while keeping the mustard yellow upholstered armchair completely unchanged in shape, fabric, color, legs, and position."
+  ]
+}

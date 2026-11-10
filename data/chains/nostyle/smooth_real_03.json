@@ -1,0 +1,17 @@
+{
+  "id": "smooth_real_03",
+  "tag": "smooth_real_003_Empty_Bedroom_Cream_Walls",
+  "init_prompt": "A photorealistic interior photo of a newly finished, nearly empty bedroom with smooth warm cream-white walls, white crown molding, and a white ceiling with a round flush-mount light at the top. Against the back wall stands a full-size bed with a warm reddish-brown wooden spindle headboard with turned finial posts, with the mattress still wrapped in crinkled clear plastic packaging over white bedding. A small clear ribbed glass pendant lamp hangs from a thin brass rod on the right side, next to a tall white built-in wardrobe with slim brass handles. White wall outlets and switches are mounted on either side of the bed, a deep white window recess is on the left wall, and light wood flooring is visible at the bottom left.",
+  "editing_prompts": [
+    "The crinkled clear plastic packaging covering the mattress of the wooden spindle-headboard bed is removed, revealing a neatly made bed with crisp white bedding, while keeping the wooden spindle-headboard bed, the pendant lamp, and the white wardrobe unchanged.",
+    "Two plump white pillows and a folded cream knitted throw are added on the wooden spindle-headboard bed, while keeping the wooden spindle-headboard bed, the pendant lamp, and the white wardrobe unchanged.",
+    "A small round light oak nightstand holding a white ceramic table lamp is added on the left side of the wooden spindle-headboard bed, while keeping the wooden spindle-headboard bed, the pendant lamp, and the white wardrobe unchanged.",
+    "The white wall outlets and switches on both sides of the wooden spindle-headboard bed are removed, leaving clean cream walls, while keeping the wooden spindle-headboard bed, the pendant lamp, and the white wardrobe unchanged.",
+    "A large framed landscape print of soft green hills in a thin natural wood frame is added, hanging on the wall above the wooden spindle-headboard bed, while keeping the wooden spindle-headboard bed, the pendant lamp, and the white wardrobe unchanged.",
+    "Light, sheer white linen curtains are added, hanging in the window recess on the left wall, while keeping the wooden spindle-headboard bed, the pendant lamp, and the white wardrobe unchanged.",
+    "A round cream woven rug is added on the floor at the foot of the wooden spindle-headboard bed, while keeping the wooden spindle-headboard bed, the pendant lamp, and the white wardrobe unchanged.",
+    "The round flush-mount ceiling light at the top of the frame is removed, leaving a plain white ceiling, while keeping the wooden spindle-headboard bed, the pendant lamp, and the white wardrobe unchanged.",
+    "A tall green potted olive tree in a woven basket planter is added in the corner beside the white wardrobe, while keeping the wooden spindle-headboard bed, the pendant lamp, and the white wardrobe unchanged.",
+    "The folded cream knitted throw is removed from the wooden spindle-headboard bed, leaving only the pillows and white bedding, while keeping the wooden spindle-headboard bed, the pendant lamp, and the white wardrobe unchanged."
+  ]
+}

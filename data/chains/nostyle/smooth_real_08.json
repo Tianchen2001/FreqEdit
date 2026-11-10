@@ -1,0 +1,17 @@
+{
+  "id": "smooth_real_08",
+  "tag": "smooth_real_008_White_Laptop_Bright_Office",
+  "init_prompt": "A photorealistic high-key photo of a minimalist bright office in which a white open laptop with a black keyboard base is seen from behind at an angle on a white table in the lower left. A small white ceramic coffee cup on a white saucer sits on the table to the right of the laptop. The background is overexposed and very bright, with a blurred white chair, a large window with thin white frames, and soft white daylight washing out most details.",
+  "editing_prompts": [
+    "A small green potted succulent in a white ceramic pot is added on the table to the right of the coffee cup, while keeping the white open laptop completely unchanged in shape, color, angle, and position.",
+    "A neat stack of two notebooks in light blue and blush pink with a yellow pencil on top is added on the table to the left of the white open laptop, while keeping the white open laptop completely unchanged in shape, color, angle, and position.",
+    "The small white coffee cup and saucer are removed from the table, leaving clean table surface, while keeping the white open laptop completely unchanged in shape, color, angle, and position.",
+    "A clear glass of water with a lemon slice is added on the table where the coffee cup used to be, while keeping the white open laptop completely unchanged in shape, color, angle, and position.",
+    "The blurred white chair in the background is removed, leaving the bright window area visible, while keeping the white open laptop completely unchanged in shape, color, angle, and position.",
+    "A tall green monstera plant in a woven basket planter is added on the floor in the right background beside the window, while keeping the white open laptop completely unchanged in shape, color, angle, and position.",
+    "A white wireless mouse is added on the table to the right of the white open laptop, while keeping the white open laptop completely unchanged in shape, color, angle, and position.",
+    "The yellow pencil is removed from the top of the notebook stack, while keeping the white open laptop completely unchanged in shape, color, angle, and position.",
+    "A small round white desk clock is added on the table behind the succulent, while keeping the white open laptop completely unchanged in shape, color, angle, and position.",
+    "The overexposed lighting is softened slightly so the window frames and room details become a little more visible, while keeping the exact same camera angle, position, and framing, and preserving the white open laptop, the notebooks, the succulent, and the plant exactly as before."
+  ]
+}

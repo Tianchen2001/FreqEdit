@@ -1,0 +1,17 @@
+{
+  "id": "textured_real_08",
+  "tag": "textured_real_008_Cozy_Dorm_Room",
+  "init_prompt": "A photorealistic wide-angle interior photo of a cozy, cluttered dorm room with white painted walls covered in black-and-white photographs, prints, and a cork bulletin board. On the left, a light wooden desk holds a vintage white all-in-one computer, papers, and a small lamp, with a green padded office chair in front. Wooden crate shelves are stacked with a stereo, books, and records. In the back right corner, an unmade single bed has gray and navy blankets beneath a window with a sheer gray curtain. On the far right, a light pine dresser holds a coral pink table lamp, and a mid-century wooden armchair with a gray seat sits in front of a small black wire side table. The floor has a black-and-white geometric diamond-pattern rug, under warm overhead light.",
+  "editing_prompts": [
+    "The scattered papers and magazines on the small black wire side table are removed, leaving a clear tabletop, while keeping the furniture, wall photos, and layout of the cluttered dorm room unchanged.",
+    "A tall green potted fiddle-leaf fig plant in a woven basket is added in the corner between the crate shelves and the bed, while keeping the furniture, wall photos, and layout of the cluttered dorm room unchanged.",
+    "The loose papers on the light wooden desk are removed, leaving a tidy desk surface, while keeping the furniture, wall photos, and layout of the cluttered dorm room unchanged.",
+    "A string of warm white fairy lights is added, draped along the top of the wall above the bed, while keeping the furniture, wall photos, and layout of the cluttered dorm room unchanged.",
+    "A neatly folded mustard yellow knit throw blanket and two cream pillows are added on the bed, while keeping the furniture, wall photos, and layout of the cluttered dorm room unchanged.",
+    "The gray item hanging over the back of the wooden armchair is removed, leaving the chair back visible, while keeping the furniture, wall photos, and layout of the cluttered dorm room unchanged.",
+    "A white ceramic mug and a small stack of books are added on the small black wire side table, while keeping the furniture, wall photos, and layout of the cluttered dorm room unchanged.",
+    "A small round wall clock with a white face is added on the wall above the desk, while keeping the furniture, wall photos, and layout of the cluttered dorm room unchanged.",
+    "The white object on the floor beneath the desk on the left is removed, leaving clear floor, while keeping the furniture, wall photos, and layout of the cluttered dorm room unchanged.",
+    "A small orange tabby cat is added, curled up and sleeping on the green desk chair, while keeping the furniture, wall photos, and layout of the cluttered dorm room unchanged."
+  ]
+}

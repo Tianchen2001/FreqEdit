@@ -1,0 +1,17 @@
+{
+  "id": "textured_real_04",
+  "tag": "textured_real_004_Hotel_Room_Twin_Beds",
+  "init_prompt": "A photorealistic interior photo of a traditional hotel room with two full-size beds side by side, each covered in a quilted bedspread with wide vertical stripes in salmon pink, peach, and cream, with dark mahogany wooden headboards and tall four-poster columns. Between the beds stands a dark wood nightstand with a brass candlestick table lamp with a glowing cream pleated shade, a white telephone, and a small black alarm clock. The walls are plain warm beige, the floor has a dark forest green carpet, and warm yellow lamplight illuminates the scene.",
+  "editing_prompts": [
+    "The white telephone is removed from the nightstand, while keeping the near bed, the far bed, the striped bedspreads, and the nightstand unchanged.",
+    "The small black alarm clock is removed from the nightstand, while keeping the near bed, the far bed, the striped bedspreads, and the nightstand unchanged.",
+    "A small vase of fresh white tulips is added on the nightstand beside the brass lamp, while keeping the near bed, the far bed, the striped bedspreads, and the nightstand unchanged.",
+    "Two plump white pillows are added at the head of the near bed and two at the head of the far bed, while keeping the near bed, the far bed, the striped bedspreads, and the nightstand unchanged.",
+    "A large framed seascape painting with soft blue waves in a white frame is added on the wall above the nightstand between the near bed and the far bed, while keeping the near bed, the far bed, the striped bedspreads, and the nightstand unchanged.",
+    "A folded white bath towel with a wrapped bar of soap on top is added at the foot of the near bed, while keeping the near bed, the far bed, the striped bedspreads, and the nightstand unchanged.",
+    "A cream woven area rug is added on the green carpet between the near bed and the far bed, while keeping the near bed, the far bed, the striped bedspreads, and the nightstand unchanged.",
+    "The folded white bath towel and soap are removed from the near bed, while keeping the near bed, the far bed, the striped bedspreads, and the nightstand unchanged.",
+    "A brown leather suitcase standing upright is added on the carpet at the foot of the far bed, while keeping the near bed, the far bed, the striped bedspreads, and the nightstand unchanged.",
+    "The warm yellow lamplight is changed to soft, natural daylight from an unseen window, while keeping the exact same camera angle, position, and framing, and preserving the near bed, the far bed, the nightstand, the painting, and the suitcase exactly as before."
+  ]
+}

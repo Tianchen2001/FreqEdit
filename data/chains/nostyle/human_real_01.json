@@ -1,0 +1,17 @@
+{
+  "id": "human_real_01",
+  "tag": "human_real_001_Woman_Camera_Snowy_Park",
+  "init_prompt": "A photorealistic outdoor photo of a young woman with long, straight, glossy black hair and full wispy bangs, a pale complexion, and a gentle closed-mouth smile, standing three-quarters to the camera in a winter lakeside park. The woman wears a long, fuzzy camel-brown teddy-texture wool coat with a gold metal button, and holds a compact black-and-dark-green camera with a black neck strap in both hands at chest height. Behind the woman, patchy white snow covers dark muddy ground, a dark wooden park bench sits on the right, leafless bare trees line a calm lake, and low buildings sit along the far shore under a soft pastel peach and pale blue dusk sky.",
+  "editing_prompts": [
+    "The dark wooden park bench on the right is removed and replaced with continuous snowy ground, while maintaining the same facial features, hairstyle, coat, and overall appearance of the young woman with long black hair and bangs.",
+    "A chunky knitted dusty pink wool scarf is added, wrapped loosely around the neck of the young woman with long black hair and bangs, while maintaining the same facial features, hairstyle, coat, and overall appearance of the young woman with long black hair and bangs.",
+    "The small wooden bench far in the left background by the lake is removed, while maintaining the same facial features, hairstyle, coat, and overall appearance of the young woman with long black hair and bangs.",
+    "A small smiling snowman with a carrot nose and a red scarf is added on the snowy ground behind the young woman with long black hair and bangs on the right, while maintaining the same facial features, hairstyle, coat, and overall appearance of the young woman with long black hair and bangs.",
+    "A matching dusty pink knitted beanie with a fluffy pom-pom is added on the head of the young woman with long black hair and bangs, while maintaining the same facial features, hairstyle, coat, and overall appearance of the young woman with long black hair and bangs.",
+    "The bare tree directly behind the head of the young woman with long black hair and bangs is removed, leaving open lake and sky, while maintaining the same facial features, hairstyle, coat, and overall appearance of the young woman with long black hair and bangs.",
+    "A pair of cream knitted mittens is added on the hands of the young woman with long black hair and bangs while still holding the camera, while maintaining the same facial features, hairstyle, coat, and overall appearance of the young woman with long black hair and bangs.",
+    "Gentle, large white snowflakes are added, falling softly through the air across the whole scene, while maintaining the same facial features, hairstyle, coat, and overall appearance of the young woman with long black hair and bangs.",
+    "The low buildings along the far shore of the lake are removed, leaving a clean tree-lined shoreline, while maintaining the same facial features, hairstyle, coat, and overall appearance of the young woman with long black hair and bangs.",
+    "A pair of small brown sparrows is added, perched on a low bare branch in the upper right of the frame, while maintaining the same facial features, hairstyle, coat, and overall appearance of the young woman with long black hair and bangs."
+  ]
+}

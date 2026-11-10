@@ -1,0 +1,17 @@
+{
+  "id": "smooth_real_06",
+  "tag": "smooth_real_006_White_Horse_Studio",
+  "init_prompt": "A photorealistic monochrome fine-art studio photo of a white horse with a thick, long, wavy white mane falling over the forehead and down the neck, soft gray shading on the muzzle and nostrils, dark eyes, and alert upright ears, facing the camera at a three-quarter angle with the body extending to the right edge of the frame. The coat shows fine silky hair texture and soft gray shadows along the neck and chest. The background is a solid, deep black studio backdrop with a faint glow around the edges of the mane.",
+  "editing_prompts": [
+    "The solid black studio backdrop is changed to a soft medium gray studio backdrop with gentle even lighting, while keeping the exact same camera angle, position, and framing, and preserving the white horse with a long flowing mane exactly as before.",
+    "A weathered light wooden fence rail is added across the lower right foreground in front of the chest of the white horse with a long flowing mane, while keeping the white horse with a long flowing mane completely unchanged in coat, mane, pose, expression, and position.",
+    "A small bale of golden straw is added in the lower left corner of the frame, while keeping the white horse with a long flowing mane completely unchanged in coat, mane, pose, expression, and position.",
+    "A few small white butterflies are added, fluttering in the gray background to the left of the white horse with a long flowing mane, while keeping the white horse with a long flowing mane completely unchanged in coat, mane, pose, expression, and position.",
+    "The faint glow around the edges of the mane is removed, leaving crisp clean edges against the gray backdrop, while keeping the white horse with a long flowing mane completely unchanged in coat, mane, pose, expression, and position.",
+    "A metal horseshoe is added, hanging from a nail on the wooden fence rail, while keeping the white horse with a long flowing mane completely unchanged in coat, mane, pose, expression, and position.",
+    "Two of the small white butterflies are removed, leaving a single butterfly in the background, while keeping the white horse with a long flowing mane completely unchanged in coat, mane, pose, expression, and position.",
+    "A shiny red apple is added, resting on top of the wooden fence rail, while keeping the white horse with a long flowing mane completely unchanged in coat, mane, pose, expression, and position.",
+    "The bale of golden straw is removed from the lower left corner, while keeping the white horse with a long flowing mane completely unchanged in coat, mane, pose, expression, and position.",
+    "A few loose white daisy petals are added, drifting in the air in the upper left of the frame, while keeping the white horse with a long flowing mane completely unchanged in coat, mane, pose, expression, and position."
+  ]
+}

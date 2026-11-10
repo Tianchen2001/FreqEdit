@@ -1,0 +1,17 @@
+{
+  "id": "textured_gen_04",
+  "tag": "textured_gen_004_Leather_Boots_Gravel",
+  "init_prompt": "A photorealistic top-down point-of-view photo of a pair of polished tan cognac-brown leather lace-up boots with dark stitched welts, brass eyelets, and multicolored speckled laces in brown, pink, and white, worn with light blue socks and cuffed dark indigo denim jeans visible at the bottom of the frame. The boots stand side by side on a ground of small rounded pebbles in a mix of gray, blue-gray, white, and sandy beige tones, evenly lit with soft daylight.",
+  "editing_prompts": [
+    "A few small bright orange and yellow autumn maple leaves are added, scattered on the pebbles around the pair of tan leather lace-up boots, while keeping the pair of tan leather lace-up boots, the jeans, and the socks completely unchanged in appearance and position.",
+    "A small white wildflower is added, growing between the pebbles in the upper left of the frame, while keeping the pair of tan leather lace-up boots, the jeans, and the socks completely unchanged in appearance and position.",
+    "The few larger beige pebbles in the upper right area are removed, leaving smaller evenly sized gray pebbles, while keeping the pair of tan leather lace-up boots, the jeans, and the socks completely unchanged in appearance and position.",
+    "A small brown pinecone is added on the pebbles to the right of the pair of tan leather lace-up boots, while keeping the pair of tan leather lace-up boots, the jeans, and the socks completely unchanged in appearance and position.",
+    "A small smooth white heart-shaped stone is added on the pebbles just above the toes of the pair of tan leather lace-up boots, while keeping the pair of tan leather lace-up boots, the jeans, and the socks completely unchanged in appearance and position.",
+    "The small brown pinecone is removed from the pebbles, while keeping the pair of tan leather lace-up boots, the jeans, and the socks completely unchanged in appearance and position.",
+    "A paper coffee cup with a brown sleeve is added, standing on the pebbles to the left of the pair of tan leather lace-up boots, while keeping the pair of tan leather lace-up boots, the jeans, and the socks completely unchanged in appearance and position.",
+    "A small green fern frond is added, lying on the pebbles near the upper right corner, while keeping the pair of tan leather lace-up boots, the jeans, and the socks completely unchanged in appearance and position.",
+    "Two of the orange maple leaves closest to the bottom edge are removed, while keeping the pair of tan leather lace-up boots, the jeans, and the socks completely unchanged in appearance and position.",
+    "The paper coffee cup is removed from the pebbles, while keeping the pair of tan leather lace-up boots, the jeans, and the socks completely unchanged in appearance and position."
+  ]
+}

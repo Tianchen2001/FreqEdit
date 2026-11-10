@@ -1,0 +1,17 @@
+{
+  "id": "human_gen_05",
+  "tag": "human_gen_005_Chef_Restaurant_Kitchen",
+  "init_prompt": "A photorealistic waist-up portrait of a smiling man with short dark hair and a neatly trimmed dark beard and mustache, standing with arms crossed in a professional kitchen. The chef wears a tall pleated white chef toque and a crisp white double-breasted chef jacket with white cloth-covered buttons, rolled-up sleeves, and a pen tucked into a small sleeve pocket on the left arm. Behind the chef is a softly blurred commercial kitchen with brushed stainless-steel counters and shelving, metal prep pans filled with ingredients, pots and pans on a stovetop, small jars on an upper shelf, and a large stainless ventilation hood, lit by warm overhead lighting.",
+  "editing_prompts": [
+    "A red-and-white gingham checkered neckerchief is added, tied neatly at the collar of the bearded chef, while maintaining the same facial features, beard, chef hat, chef jacket, crossed arms, and overall appearance of the bearded chef.",
+    "The pen tucked into the small sleeve pocket on the left arm of the bearded chef is removed, leaving a plain white sleeve pocket, while maintaining the same facial features, beard, chef hat, chef jacket, crossed arms, and overall appearance of the bearded chef.",
+    "A white round ceramic plate holding a neatly twirled portion of spaghetti with red tomato sauce and fresh green basil leaves is added on the stainless counter to the right of the bearded chef, while maintaining the same facial features, beard, chef hat, chef jacket, crossed arms, and overall appearance of the bearded chef.",
+    "The metal prep pans filled with ingredients on the counter to the right are removed, leaving a clean stainless-steel counter, while maintaining the same facial features, beard, chef hat, chef jacket, crossed arms, and overall appearance of the bearded chef.",
+    "A small glass bottle of olive oil and a wooden pepper grinder are added on the stainless counter beside the spaghetti plate, while maintaining the same facial features, beard, chef hat, chef jacket, crossed arms, and overall appearance of the bearded chef.",
+    "A white folded kitchen towel is added, draped over the left shoulder of the bearded chef, while maintaining the same facial features, beard, chef hat, chef jacket, crossed arms, and overall appearance of the bearded chef.",
+    "The pots and pans on the stovetop in the left background are removed, leaving a clean empty stovetop, while maintaining the same facial features, beard, chef hat, chef jacket, crossed arms, and overall appearance of the bearded chef.",
+    "A small potted basil plant in a terracotta pot is added on the upper shelf behind the bearded chef, while maintaining the same facial features, beard, chef hat, chef jacket, crossed arms, and overall appearance of the bearded chef.",
+    "A wooden cutting board with sliced red tomatoes is added on the left side of the stainless counter, while maintaining the same facial features, beard, chef hat, chef jacket, crossed arms, and overall appearance of the bearded chef.",
+    "The small jars on the upper shelf in the background are removed, leaving only the basil plant on the shelf, while maintaining the same facial features, beard, chef hat, chef jacket, crossed arms, and overall appearance of the bearded chef."
+  ]
+}

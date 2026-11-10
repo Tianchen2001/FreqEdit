@@ -1,0 +1,17 @@
+{
+  "id": "textured_real_03",
+  "tag": "textured_real_003_Two_Zebras_Savanna",
+  "init_prompt": "A photorealistic wildlife photo of two plains zebras with bold black-and-white stripes grazing with heads lowered to the ground on a dry savanna of short, golden-tan grass. The front zebra faces right with the body angled toward the camera and the tail hanging, overlapping a second zebra standing slightly behind with a swishing black tail. A narrow dirt track crosses the field behind the animals, small clumps of green shrubs dot the grassland, and the background is a slope of dry golden grass in soft daylight.",
+  "editing_prompts": [
+    "A small zebra foal with soft fuzzy brown-and-white stripes is added, standing beside the zebra in the front on the left, while maintaining the same stripe patterns, grazing poses, and positions of the zebra in the front and the zebra behind.",
+    "The narrow dirt track crossing behind the zebras is removed and replaced with continuous dry grass, while maintaining the same stripe patterns, grazing poses, and positions of the zebra in the front and the zebra behind.",
+    "A tall flat-topped acacia tree is added in the right background on the grassy slope, while maintaining the same stripe patterns, grazing poses, and positions of the zebra in the front and the zebra behind.",
+    "A small white cattle egret bird is added, standing in the grass near the hooves of the zebra behind, while maintaining the same stripe patterns, grazing poses, and positions of the zebra in the front and the zebra behind.",
+    "The clumps of green shrubs in the upper right background are removed, leaving open golden grassland, while maintaining the same stripe patterns, grazing poses, and positions of the zebra in the front and the zebra behind.",
+    "Two grazing gazelles with tan backs and white bellies are added in the left middle distance, while maintaining the same stripe patterns, grazing poses, and positions of the zebra in the front and the zebra behind.",
+    "The small green shrub on the far left edge of the frame is removed, while maintaining the same stripe patterns, grazing poses, and positions of the zebra in the front and the zebra behind.",
+    "Small clusters of yellow wildflowers are added, scattered across the dry grass in the foreground, while maintaining the same stripe patterns, grazing poses, and positions of the zebra in the front and the zebra behind.",
+    "One of the two gazelles, the gazelle farther from the zebras, is removed, while maintaining the same stripe patterns, grazing poses, and positions of the zebra in the front and the zebra behind.",
+    "A pair of small oxpecker birds is added, perched on the back of the zebra behind, while maintaining the same stripe patterns, grazing poses, and positions of the zebra in the front and the zebra behind."
+  ]
+}

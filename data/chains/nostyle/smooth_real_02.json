@@ -1,0 +1,17 @@
+{
+  "id": "smooth_real_02",
+  "tag": "smooth_real_002_Tuxedo_Cat_White_Sink",
+  "init_prompt": "A photorealistic overhead indoor photo of a young black-and-white bicolor cat with a black back and tail, a white chest and belly, white paws, a black mask over the ears and eyes, and wide amber-green eyes, lying curled on the left side inside a round glossy white porcelain bathroom sink basin and looking up at the camera, wearing a thin collar with a small silver bell. A chrome double-handle faucet with a cross handle sits at the top of the basin behind a dark drain stopper, a dark navy plastic bottle stands at the top left, and a transparent bright blue liquid hand soap pump bottle stands at the top right on the white countertop.",
+  "editing_prompts": [
+    "The transparent bright blue liquid hand soap bottle at the top right is removed, leaving clean white countertop, while keeping the black-and-white cat lying in the sink completely unchanged in fur pattern, pose, expression, and position.",
+    "The dark navy plastic bottle at the top left is removed, leaving clean white countertop, while keeping the black-and-white cat lying in the sink completely unchanged in fur pattern, pose, expression, and position.",
+    "A neatly folded soft pastel yellow hand towel is added on the countertop at the top left beside the faucet, while keeping the black-and-white cat lying in the sink completely unchanged in fur pattern, pose, expression, and position.",
+    "A small green potted succulent in a white ceramic pot is added on the countertop at the top right, while keeping the black-and-white cat lying in the sink completely unchanged in fur pattern, pose, expression, and position.",
+    "A small yellow rubber duck is added, sitting on the rim of the sink basin at the lower right, while keeping the black-and-white cat lying in the sink completely unchanged in fur pattern, pose, expression, and position.",
+    "The dark drain stopper in the sink basin behind the black-and-white cat lying in the sink is removed, leaving smooth white porcelain, while keeping the black-and-white cat lying in the sink completely unchanged in fur pattern, pose, expression, and position.",
+    "A white ceramic toothbrush cup holding two toothbrushes is added on the countertop next to the succulent, while keeping the black-and-white cat lying in the sink completely unchanged in fur pattern, pose, expression, and position.",
+    "A few small clear soap bubbles are added, floating in the air above the right side of the sink basin, while keeping the black-and-white cat lying in the sink completely unchanged in fur pattern, pose, expression, and position.",
+    "The white ceramic toothbrush cup and toothbrushes are removed from the countertop, while keeping the black-and-white cat lying in the sink completely unchanged in fur pattern, pose, expression, and position.",
+    "A small round bar of pink soap on a white soap dish is added on the countertop below the faucet on the right, while keeping the black-and-white cat lying in the sink completely unchanged in fur pattern, pose, expression, and position."
+  ]
+}

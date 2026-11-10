@@ -1,0 +1,17 @@
+{
+  "id": "smooth_gen_06",
+  "tag": "smooth_gen_006_Desk_Lamp_White_Workspace",
+  "init_prompt": "A photorealistic minimalist workspace photo of a white rectangular desk with thin black metal legs placed against a plain smooth off-white wall. On the right side of the desk stands a matte black adjustable desk lamp with a conical shade, an articulated arm, and a round black base with a black cord trailing to the right. In the center lies a closed black hardcover notebook with an elastic band, and to the left of the notebook sits a small plain white ceramic mug. The upper two-thirds of the image is empty wall in soft, diffused, cool daylight.",
+  "editing_prompts": [
+    "A small potted green succulent in a white ceramic pot is added on the left end of the white desk, while keeping the black adjustable desk lamp, the white desk, and the overall arrangement unchanged.",
+    "The black power cord trailing from the black adjustable desk lamp to the right edge of the desk is removed, leaving a clean desk surface, while keeping the black adjustable desk lamp, the white desk, and the overall arrangement unchanged.",
+    "A black ballpoint pen is added, lying diagonally on top of the black hardcover notebook, while keeping the black adjustable desk lamp, the white desk, and the overall arrangement unchanged.",
+    "A framed botanical print of a single green leaf in a thin light oak frame is added, hanging on the wall above the center of the desk, while keeping the black adjustable desk lamp, the white desk, and the overall arrangement unchanged.",
+    "The small white ceramic mug is removed from the desk, leaving open desk surface to the left of the black hardcover notebook, while keeping the black adjustable desk lamp, the white desk, and the overall arrangement unchanged.",
+    "A tall clear glass of water is added on the desk where the small white ceramic mug used to stand, while keeping the black adjustable desk lamp, the white desk, and the overall arrangement unchanged.",
+    "A pair of black over-ear headphones is added on the desk to the right of the black hardcover notebook, in front of the lamp base, while keeping the black adjustable desk lamp, the white desk, and the overall arrangement unchanged.",
+    "The black ballpoint pen is removed from the top of the black hardcover notebook, while keeping the black adjustable desk lamp, the white desk, and the overall arrangement unchanged.",
+    "A small cork pinboard with two pinned paper notes is added on the wall above the black adjustable desk lamp, while keeping the black adjustable desk lamp, the white desk, and the overall arrangement unchanged.",
+    "The pair of black over-ear headphones is removed from the desk, while keeping the black adjustable desk lamp, the white desk, and the overall arrangement unchanged."
+  ]
+}

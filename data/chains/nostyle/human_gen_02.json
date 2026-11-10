@@ -1,0 +1,17 @@
+{
+  "id": "human_gen_02",
+  "tag": "human_gen_002_Elderly_Man_Park_Bench",
+  "init_prompt": "A photorealistic outdoor photo of an elderly man with short, tousled snow-white hair and a wrinkled, clean-shaven face, sitting on a park bench and reading an unfolded newspaper held in both hands with downcast eyes. The elderly man wears a brown-and-tan herringbone tweed blazer with flap pockets over an olive-green knit sweater, a light blue collared shirt, and dark charcoal trousers. The bench has reddish-brown varnished wooden slats and ornate black cast-iron scrolled armrests. Behind the bench lies a bright green, softly blurred lawn, a gray paved footpath, and the thick dark trunk of a tree with dense green shrubs in the upper background under diffuse daylight.",
+  "editing_prompts": [
+    "A pair of thin round gold-rimmed reading glasses is added, resting on the nose of the elderly man with white hair, while maintaining the same facial features, white hair, clothing, posture, and overall appearance of the elderly man with white hair.",
+    "A white paper coffee cup with a brown cardboard sleeve is added on the wooden bench slats to the right of the elderly man with white hair, while maintaining the same facial features, white hair, clothing, posture, and overall appearance of the elderly man with white hair.",
+    "The dark tree trunk in the upper background is removed and replaced with continuous green lawn and shrubs, while maintaining the same facial features, white hair, clothing, posture, and overall appearance of the elderly man with white hair.",
+    "A gray wool tweed flat cap is added on the head of the elderly man with white hair, while maintaining the same facial features, white hair, clothing, posture, and overall appearance of the elderly man with white hair.",
+    "Three gray-and-white pigeons are added, pecking at the footpath in the lower left foreground near the bench, while maintaining the same facial features, white hair, clothing, posture, and overall appearance of the elderly man with white hair.",
+    "A brown wooden walking cane with a curved handle is added, leaning against the right armrest of the bench beside the elderly man with white hair, while maintaining the same facial features, white hair, clothing, posture, and overall appearance of the elderly man with white hair.",
+    "The gray paved footpath behind the bench is removed and replaced with continuous green lawn, while maintaining the same facial features, white hair, clothing, posture, and overall appearance of the elderly man with white hair.",
+    "A small paper bag of bread crumbs is added on the bench slats next to the coffee cup, while maintaining the same facial features, white hair, clothing, posture, and overall appearance of the elderly man with white hair.",
+    "One of the three pigeons, the pigeon closest to the bench, is removed, while maintaining the same facial features, white hair, clothing, posture, and overall appearance of the elderly man with white hair.",
+    "A small brown-and-white terrier dog on a red leash is added, lying on the grass in front of the bench at the feet of the elderly man with white hair, while maintaining the same facial features, white hair, clothing, posture, and overall appearance of the elderly man with white hair."
+  ]
+}

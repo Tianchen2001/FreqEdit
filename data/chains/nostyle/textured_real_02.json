@@ -1,0 +1,17 @@
+{
+  "id": "textured_real_02",
+  "tag": "textured_real_002_City_Road_Crosswalk",
+  "init_prompt": "A photorealistic street-level photo of a wide, empty multi-lane asphalt city road with a bold white zebra crosswalk in the foreground, white directional lane arrows for left turns, straight, and U-turns, a solid white stop line, and double yellow center lines curving into the distance. A blue rectangular overhead direction sign with white text and a black traffic signal box hang above the road. Rows of young green trees, slim black street lamps, and a green median line the right side, a white police-style SUV is parked on the left, and a white bus and a few vehicles appear in the distance near tall buildings, under a flat, pale overcast sky.",
+  "editing_prompts": [
+    "The white SUV parked on the left side of the wide multi-lane asphalt road is removed, leaving clean empty road surface, while keeping the wide multi-lane asphalt road, the crosswalk, the lane markings, and the roadside trees unchanged.",
+    "The distant white bus and vehicles are removed, leaving the wide multi-lane asphalt road clear to the horizon, while keeping the wide multi-lane asphalt road, the crosswalk, the lane markings, and the roadside trees unchanged.",
+    "A cyclist in a yellow jacket riding a red bicycle is added, crossing the zebra crosswalk from left to right in the foreground, while keeping the wide multi-lane asphalt road, the crosswalk, the lane markings, and the roadside trees unchanged.",
+    "The black traffic signal box hanging above the road on the left is removed, while keeping the wide multi-lane asphalt road, the crosswalk, the lane markings, and the roadside trees unchanged.",
+    "A row of flower planters with red and yellow tulips is added along the green median on the right side of the wide multi-lane asphalt road, while keeping the wide multi-lane asphalt road, the crosswalk, the lane markings, and the roadside trees unchanged.",
+    "A pedestrian with a blue umbrella is added, standing at the right end of the crosswalk waiting to cross, while keeping the wide multi-lane asphalt road, the crosswalk, the lane markings, and the roadside trees unchanged.",
+    "The motorcyclist near the trees on the right side in the distance is removed, while keeping the wide multi-lane asphalt road, the crosswalk, the lane markings, and the roadside trees unchanged.",
+    "A white delivery van is added, stopped behind the white stop line in the lane on the right, while keeping the wide multi-lane asphalt road, the crosswalk, the lane markings, and the roadside trees unchanged.",
+    "The pedestrian with the blue umbrella is removed from the right end of the crosswalk, while keeping the wide multi-lane asphalt road, the crosswalk, the lane markings, and the roadside trees unchanged.",
+    "A small flock of pigeons is added, flying across the sky above the wide multi-lane asphalt road, while keeping the wide multi-lane asphalt road, the crosswalk, the lane markings, and the roadside trees unchanged."
+  ]
+}

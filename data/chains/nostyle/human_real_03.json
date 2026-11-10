@@ -1,0 +1,17 @@
+{
+  "id": "human_real_03",
+  "tag": "human_real_003_Man_Laptop_Bright_Office",
+  "init_prompt": "A photorealistic indoor photo of a man with short dark curly hair and a full, neatly trimmed black beard, smiling softly while resting the chin on the left fist and typing on a silver laptop with the right hand. The man wears a light-wash blue denim button-up shirt with chest pockets and rolled cuffs over a white crew-neck T-shirt. The open silver laptop occupies the lower left foreground, and a closed notebook and a pen lie on the light wooden desk in the lower right. The background is a bright, airy room with large white-framed windows letting in soft daylight, white curtains, a blurred cream lounge chair, and a small green potted plant on the right windowsill.",
+  "editing_prompts": [
+    "A white ceramic mug of hot coffee with a light curl of steam is added on the desk to the right of the laptop in front of the bearded man with short curly hair, while maintaining the same facial features, curly hair, beard, denim shirt, pose, and overall appearance of the bearded man with short curly hair.",
+    "The closed notebook and pen on the lower right of the desk are removed, leaving a clean wooden desk surface, while maintaining the same facial features, curly hair, beard, denim shirt, pose, and overall appearance of the bearded man with short curly hair.",
+    "A pair of round tortoiseshell eyeglasses is added on the face of the bearded man with short curly hair, while maintaining the same facial features, curly hair, beard, denim shirt, pose, and overall appearance of the bearded man with short curly hair.",
+    "The small green potted plant on the right windowsill is removed, while maintaining the same facial features, curly hair, beard, denim shirt, pose, and overall appearance of the bearded man with short curly hair.",
+    "A small potted green succulent in a white ceramic pot is added on the desk beside the coffee mug, while maintaining the same facial features, curly hair, beard, denim shirt, pose, and overall appearance of the bearded man with short curly hair.",
+    "The blurred cream lounge chair in the left background is removed, leaving the bright window wall visible, while maintaining the same facial features, curly hair, beard, denim shirt, pose, and overall appearance of the bearded man with short curly hair.",
+    "A pair of white wireless earbuds in an open white charging case is added on the desk in front of the laptop, while maintaining the same facial features, curly hair, beard, denim shirt, pose, and overall appearance of the bearded man with short curly hair.",
+    "A fluffy orange tabby cat is added, curled up and napping on the right side of the wooden desk, while maintaining the same facial features, curly hair, beard, denim shirt, pose, and overall appearance of the bearded man with short curly hair.",
+    "A small stack of three colorful sticky note pads in yellow, pink, and blue is added on the desk beside the cat, while maintaining the same facial features, curly hair, beard, denim shirt, pose, and overall appearance of the bearded man with short curly hair.",
+    "The white wireless earbuds and charging case are removed from the desk, while maintaining the same facial features, curly hair, beard, denim shirt, pose, and overall appearance of the bearded man with short curly hair."
+  ]
+}

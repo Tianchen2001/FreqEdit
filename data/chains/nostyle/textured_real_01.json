@@ -1,0 +1,17 @@
+{
+  "id": "textured_real_01",
+  "tag": "textured_real_001_White_Cat_Stone_Wall",
+  "init_prompt": "A photorealistic outdoor photo of a white cat with pale cream-gray tinted ears and face points, striking light blue eyes, and a fluffy brownish-gray tail, sitting upright on top of a weathered gray concrete garden wall with a row of decorative arched cutouts, facing the camera. Green ivy and small leafy weeds grow along the wall top and face. The background shows a softly blurred gray asphalt road, a dark wall, tall green leafy trees and shrubs, and a white-roofed building under soft overcast daylight.",
+  "editing_prompts": [
+    "The blurred gray asphalt road in the background is removed and replaced with continuous green garden lawn, while keeping the white cat with blue eyes on the wall completely unchanged in fur, eyes, pose, and position.",
+    "A cluster of small pink and white climbing roses is added, growing along the ivy on the wall to the right of the white cat with blue eyes on the wall, while keeping the white cat with blue eyes on the wall completely unchanged in fur, eyes, pose, and position.",
+    "A small blue-and-white ceramic bowl of water is added on top of the wall to the left of the white cat with blue eyes on the wall, while keeping the white cat with blue eyes on the wall completely unchanged in fur, eyes, pose, and position.",
+    "The white-roofed building in the blurred background is removed and replaced with more green trees, while keeping the white cat with blue eyes on the wall completely unchanged in fur, eyes, pose, and position.",
+    "A small yellow butterfly is added, fluttering in the air just above the head of the white cat with blue eyes on the wall, while keeping the white cat with blue eyes on the wall completely unchanged in fur, eyes, pose, and position.",
+    "The small leafy weeds growing on top of the wall to the left of the white cat with blue eyes on the wall are removed, leaving clean concrete, while keeping the white cat with blue eyes on the wall completely unchanged in fur, eyes, pose, and position.",
+    "A few small purple violet flowers are added, growing in the ivy along the front face of the wall below the white cat with blue eyes on the wall, while keeping the white cat with blue eyes on the wall completely unchanged in fur, eyes, pose, and position.",
+    "A small brown sparrow is added, perched on the far right end of the wall, while keeping the white cat with blue eyes on the wall completely unchanged in fur, eyes, pose, and position.",
+    "The blue-and-white ceramic bowl is removed from the top of the wall, while keeping the white cat with blue eyes on the wall completely unchanged in fur, eyes, pose, and position.",
+    "The overcast lighting is changed to soft, warm afternoon sunlight with gentle dappled light through the leaves, while keeping the exact same camera angle, position, and framing, and preserving the white cat with blue eyes on the wall, the wall, the roses, and the sparrow exactly as before."
+  ]
+}

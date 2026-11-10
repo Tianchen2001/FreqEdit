@@ -1,0 +1,17 @@
+{
+  "id": "smooth_real_07",
+  "tag": "smooth_real_007_Snow_Covered_Bench",
+  "init_prompt": "A photorealistic outdoor winter photo of a modern park bench with a black powder-coated metal frame, curved black metal armrests, and dark brown wooden slats, completely covered with a thick, fluffy layer of fresh white snow on the seat, backrest, and armrests, standing on flat, snow-covered ground. Small falling snowflakes and a few bare twigs poke through the snow beneath the bench. The background is a soft, overcast, white snowy landscape with a faint hint of dark shrubs at the top edge.",
+  "editing_prompts": [
+    "The bare twigs poking through the snow beneath the snow-covered park bench are removed, leaving smooth, clean snow, while keeping the snow-covered park bench completely unchanged in shape, snow cover, and position.",
+    "A small smiling snowman with a carrot nose, coal eyes, and a red knitted scarf is added on the snow to the right of the snow-covered park bench, while keeping the snow-covered park bench completely unchanged in shape, snow cover, and position.",
+    "A small red cardinal bird is added, perched on the snowy ground in front of the snow-covered park bench, while keeping the snow-covered park bench completely unchanged in shape, snow cover, and position.",
+    "The dark shrubs at the top edge of the background are removed, leaving continuous snowy landscape, while keeping the snow-covered park bench completely unchanged in shape, snow cover, and position.",
+    "A lit black iron park lamp post with a warm glowing lantern is added on the left side behind the snow-covered park bench, while keeping the snow-covered park bench completely unchanged in shape, snow cover, and position.",
+    "A row of snow-dusted small evergreen fir trees is added in the background behind the snow-covered park bench, while keeping the snow-covered park bench completely unchanged in shape, snow cover, and position.",
+    "A line of small bird footprints is added in the snow in front of the snow-covered park bench, while keeping the snow-covered park bench completely unchanged in shape, snow cover, and position.",
+    "The red cardinal bird is removed from the snowy ground, leaving the footprints, while keeping the snow-covered park bench completely unchanged in shape, snow cover, and position.",
+    "A forgotten red knitted mitten is added, lying on the snowy ground near the front leg of the snow-covered park bench, while keeping the snow-covered park bench completely unchanged in shape, snow cover, and position.",
+    "The flat overcast light is changed to soft, bright winter daylight with a pale blue tint in the sky, while keeping the exact same camera angle, position, and framing, and preserving the snow-covered park bench, the snowman, the lamp post, and the fir trees exactly as before."
+  ]
+}
