@@ -23,6 +23,7 @@ from diffusers.models import AutoencoderKL, FluxTransformer2DModel
 from diffusers.schedulers import FlowMatchEulerDiscreteScheduler
 
 from utils import correct_with_wavelet_guidance, adaptive_weight
+from pipelines.freqedit_core import FreqEditConfig, FreqEditController
 
 
 logger = logging.get_logger(__name__)
@@ -119,6 +120,7 @@ class FreqEditKontextPipeline(FluxKontextPipeline):
         backward_steps: int = 4, 
         skip_backward_steps: int = 1,
         use_adaptive_weight: bool = True,
+        freqedit_config: Optional[FreqEditConfig] = None,  # if given, overrides the FreqEdit params above
     ):
         r"""
         Function invoked when calling the pipeline for generation.
@@ -439,11 +441,14 @@ class FreqEditKontextPipeline(FluxKontextPipeline):
             )
 
         # -------------------------------------------------------------------------------------
-        Inject_timesteps = int(Inject_time_scale * num_inference_steps)
-        QG_timesteps = int(QG_time_scale * num_inference_steps)
-        backward_v = torch.zeros_like(latents)
-        sigmas = self.scheduler.sigmas[:]
-        accumulated_cnt = 0
+        if freqedit_config is None:
+            freqedit_config = FreqEditConfig(
+                inject_end=Inject_time_scale, levels=levels, wavelet=wavelet_mode,
+                use_adaptive_weight=use_adaptive_weight, base_alpha=base_alpha, gamma=gamma,
+                backward_steps=backward_steps, skip_backward_steps=skip_backward_steps,
+                qg_start=QG_time_scale, qg_lambda=QG_lambda,
+            )
+        controller = FreqEditController(freqedit_config, num_inference_steps, self.scheduler.sigmas[:], latents)
         # -------------------------------------------------------------------------------------
         # 6. Denoising loop
         # We set the index here to remove DtoH sync, helpful especially during compilation.
@@ -495,34 +500,21 @@ class FreqEditKontextPipeline(FluxKontextPipeline):
                     noise_pred = neg_noise_pred + true_cfg_scale * (noise_pred - neg_noise_pred)
 
 
-                if i < Inject_timesteps:
+                if controller.inject(i):
                     # latents -> image_latents
-                    ref_image_noise_pred = (image_latents - latents) / (sigmas[-1] - sigmas[i])
+                    ref_image_noise_pred = controller.reference_velocity(i, latents, image_latents)
 
                     v_ref = self._unpack_latents(ref_image_noise_pred, height, width, self.vae_scale_factor)
                     v_pred = self._unpack_latents(noise_pred, height, width, self.vae_scale_factor)
 
-                    if use_adaptive_weight:
-                        alpha_map = adaptive_weight(v_ref, v_pred, base_alpha, gamma=gamma)
-                    else:
-                        alpha_map = base_alpha * torch.ones_like(v_pred[:, :1, :, :])
-
-                    v_edit = correct_with_wavelet_guidance(
-                        v_pred,                
-                        v_ref,      
-                        alpha_map=alpha_map,    
-                        wavelet=wavelet_mode,
-                        levels=levels
-                    )
+                    v_edit = controller.correct(v_pred, v_ref)  # alpha map + wavelet blend, see freqedit_core.py
                     corrected_noise_pred = self._pack_latents(v_edit, batch_size, num_channels_latents, height//8, width//8)
                     
-                    if i > skip_backward_steps:
-                        backward_v += (sigmas[i+1] - sigmas[i]) * (noise_pred - corrected_noise_pred)
-                        accumulated_cnt += 1
+                    controller.accumulate(i, noise_pred, corrected_noise_pred)
                     noise_pred = corrected_noise_pred
                 
                 # perform a prediction towards the source image latents
-                elif source_image_latents is not None and QG_lambda > 0 and i >= QG_timesteps:
+                elif source_image_latents is not None and controller.quality_guidance(i):
 
                     latent_model_input_source = torch.cat([latents, source_image_latents], dim=1)
                     source_noise_pred = self.transformer(
@@ -533,16 +525,13 @@ class FreqEditKontextPipeline(FluxKontextPipeline):
                     )[0]
 
                     source_noise_pred = source_noise_pred[:, : latents.size(1)]
-                    noise_pred = noise_pred + QG_lambda * (source_noise_pred - noise_pred)
+                    noise_pred = noise_pred + controller.cfg.qg_lambda * (source_noise_pred - noise_pred)
 
                     
                 latents_dtype = latents.dtype
                 latents = self.scheduler.step(noise_pred, t, latents, return_dict=False)[0]
 
-                if accumulated_cnt == backward_steps or i == Inject_timesteps - 1:
-                    latents += backward_v
-                    accumulated_cnt = 0
-                    backward_v = torch.zeros_like(latents)
+                latents = controller.post_step(i, latents)  # path compensation
 
                 if latents.dtype != latents_dtype:
                     if torch.backends.mps.is_available():

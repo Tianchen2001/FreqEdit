@@ -68,14 +68,22 @@ def parse_args():
     ap.add_argument("--inject-time-scale", type=float, default=None)
     ap.add_argument("--base-alpha", type=float, default=None)
     ap.add_argument("--gamma", type=float, default=None)
-    ap.add_argument("--levels", type=int, default=2)
+    ap.add_argument("--inject-start", type=float, default=0.0, help="injection window start; --inject-time-scale is the end")
+    ap.add_argument("--levels", type=int, default=2, help="J, number of DWT levels")
     ap.add_argument("--wavelet", default="db4")
+    ap.add_argument("--inject-bands", default=None,
+                    help="comma list of DWT components pulled toward the reference, from LL,D1..DJ (D1 = finest); "
+                         "default: all detail levels (released FreqEdit)")
+    ap.add_argument("--orient", choices=["all", "HH", "LHHL"], default="all", help="orientations of D_j that are pulled")
     ap.add_argument("--no-adaptive-weight", action="store_true")
+    ap.add_argument("--alpha-max", type=float, default=None, help="cap on the alpha map")
+    ap.add_argument("--no-compensation", action="store_true", help="turn off path compensation")
     ap.add_argument("--backward-steps", type=int, default=4)
     ap.add_argument("--skip-backward-steps", type=int, default=1)
     # quality guidance (Kontext FreqEdit only)
     ap.add_argument("--qg-time-scale", type=float, default=None)
     ap.add_argument("--qg-lambda", type=float, default=None)
+    ap.add_argument("--qg-end", type=float, default=1.0)
     ap.add_argument("--prompt-preserve", default="A high quality picture.")
 
     # memory
@@ -116,23 +124,30 @@ def build_pipe(args):
     return pipe, offload
 
 
-def freqedit_kwargs(args):
+def freqedit_config(args):
+    """FreqEditConfig for pipelines/freqedit_core.py; defaults = the released run scripts."""
+    from pipelines.freqedit_core import FreqEditConfig
     d = DEFAULTS[args.model]
     pick = lambda name: getattr(args, name) if getattr(args, name) is not None else d[name]
-    kw = dict(
-        Inject_time_scale=pick("inject_time_scale"),
+    cfg = FreqEditConfig(
+        inject_start=args.inject_start,
+        inject_end=pick("inject_time_scale"),
+        levels=args.levels,
+        wavelet=args.wavelet,
+        inject_bands=tuple(args.inject_bands.split(",")) if args.inject_bands else None,
+        orient=args.orient,
+        use_adaptive_weight=not args.no_adaptive_weight,
         base_alpha=pick("base_alpha"),
         gamma=pick("gamma"),
-        levels=args.levels,
-        wavelet_mode=args.wavelet,
-        use_adaptive_weight=not args.no_adaptive_weight,
+        alpha_max=args.alpha_max,
+        compensation=not args.no_compensation,
         backward_steps=args.backward_steps,
         skip_backward_steps=args.skip_backward_steps,
     )
     if args.model == "kontext":
-        kw.update(QG_time_scale=pick("qg_time_scale"), QG_lambda=pick("qg_lambda"),
-                  prompt_preserve=args.prompt_preserve)
-    return kw
+        cfg.qg_start, cfg.qg_end, cfg.qg_lambda = pick("qg_time_scale"), args.qg_end, pick("qg_lambda")
+    cfg.bands()  # validate the band names before loading the model
+    return cfg
 
 
 def versions():
@@ -180,14 +195,17 @@ def main():
     else:
         current = load_image(os.path.join(out_dir, f"turn_{args.start_turn:02d}.png")).convert("RGB").resize(size)
 
+    fe_cfg = freqedit_config(args) if args.method == "freqedit" else None
     pipe, offload = build_pipe(args)
-    fe_kw = freqedit_kwargs(args) if args.method == "freqedit" else {}
 
     # every argument that reaches pipe(...), apart from prompt / image / generator, which change per turn
     call_kwargs = dict(height=args.size, width=args.size, num_inference_steps=args.steps)
     if args.model == "kontext":
         call_kwargs["guidance_scale"] = args.guidance
-    call_kwargs.update(fe_kw)
+    if fe_cfg is not None:
+        call_kwargs["freqedit_config"] = fe_cfg
+        if args.model == "kontext":
+            call_kwargs["prompt_preserve"] = args.prompt_preserve
 
     params = dict(
         model=args.model, model_id=MODEL_IDS[args.model], method=args.method,
@@ -196,7 +214,7 @@ def main():
         prompts_from=os.path.abspath(args.prompt_file) if args.prompt_file else f"param_prompts.prompts{args.prompt_idx}",
         turns=args.turns, seed_rule="turn k uses seed + k", seed=args.seed,
         source_image_for_quality_guidance=(args.model == "kontext" and args.method == "freqedit"),
-        pipe_call_kwargs=call_kwargs,
+        pipe_call_kwargs={k: (v.to_dict() if k == "freqedit_config" else v) for k, v in call_kwargs.items()},
         cpu_offload=offload,
         versions=versions(),
         repo_commit=git_commit(),

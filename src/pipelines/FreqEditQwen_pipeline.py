@@ -23,6 +23,7 @@ from diffusers.utils import logging, replace_example_docstring
 
 
 from utils import correct_with_wavelet_guidance, adaptive_weight
+from pipelines.freqedit_core import FreqEditConfig, FreqEditController
 
 logger = logging.get_logger(__name__)
 
@@ -89,6 +90,7 @@ class FreqEditQwenEditPipeline(QwenImageEditPipeline):
         backward_steps: int = 4, 
         skip_backward_steps: int = 1,
         use_adaptive_weight: bool = True,
+        freqedit_config: Optional[FreqEditConfig] = None,  # if given, overrides the FreqEdit params above
     ):
         
         image_size = image[0].size if isinstance(image, list) else image.size
@@ -232,10 +234,13 @@ class FreqEditQwenEditPipeline(QwenImageEditPipeline):
         )
 
         #-------------------------------------------------------------------
-        Inject_timesteps = int(Inject_time_scale * num_inference_steps)
-        backward_v = torch.zeros_like(latents)
-        sigmas = self.scheduler.sigmas[:]
-        accumulated_cnt = 0
+        if freqedit_config is None:
+            freqedit_config = FreqEditConfig(
+                inject_end=Inject_time_scale, levels=levels, wavelet=wavelet_mode,
+                use_adaptive_weight=use_adaptive_weight, base_alpha=base_alpha, gamma=gamma,
+                backward_steps=backward_steps, skip_backward_steps=skip_backward_steps,
+            )
+        controller = FreqEditController(freqedit_config, num_inference_steps, self.scheduler.sigmas[:], latents)
         #-------------------------------------------------------------------
 
         # 6. Denoising loop
@@ -287,25 +292,14 @@ class FreqEditQwenEditPipeline(QwenImageEditPipeline):
                     noise_norm = torch.norm(comb_pred, dim=-1, keepdim=True)
                     noise_pred = comb_pred * (cond_norm / noise_norm)
 
-                if i < Inject_timesteps:
-                    ref_image_noise_pred = (image_latents - latents) / (sigmas[-1] - sigmas[i])
+                if controller.inject(i):
+                    ref_image_noise_pred = controller.reference_velocity(i, latents, image_latents)
 
                     v_pred_4D = self._unpack_latents(noise_pred, height, width, self.vae_scale_factor).squeeze(2)
                     v_ref_4D = self._unpack_latents(ref_image_noise_pred, height, width, self.vae_scale_factor).squeeze(2)
                     H_latent, W_latent = v_pred_4D.shape[-2:]
 
-                    if use_adaptive_weight:
-                        alpha_map = adaptive_weight(v_ref_4D, v_pred_4D, base_alpha, gamma=gamma)
-                    else:
-                        alpha_map = torch.full((v_ref_4D.shape[0], 1, H_latent, W_latent), base_alpha, device=v_ref_4D.device, dtype=v_ref_4D.dtype)
-
-                    corrected_noise_pred_4D = correct_with_wavelet_guidance(
-                        v_pred_4D,
-                        v_ref_4D,
-                        alpha_map=alpha_map,
-                        wavelet=wavelet_mode,
-                        levels=levels
-                    )
+                    corrected_noise_pred_4D = controller.correct(v_pred_4D, v_ref_4D)  # alpha map + wavelet blend, see freqedit_core.py
 
                     # The _pack_latents function you are using expects a 4D input. Do NOT unsqueeze back to 5D.
                     corrected_noise_pred = self._pack_latents(
@@ -315,9 +309,7 @@ class FreqEditQwenEditPipeline(QwenImageEditPipeline):
                         height=H_latent, 
                         width=W_latent
                     )
-                    if i > skip_backward_steps:
-                        backward_v += (sigmas[i + 1] - sigmas[i]) * (noise_pred - corrected_noise_pred)
-                        accumulated_cnt += 1
+                    controller.accumulate(i, noise_pred, corrected_noise_pred)
                     
 
                     noise_pred = corrected_noise_pred 
@@ -326,10 +318,7 @@ class FreqEditQwenEditPipeline(QwenImageEditPipeline):
                 latents_dtype = latents.dtype
                 latents = self.scheduler.step(noise_pred, t, latents, return_dict=False)[0]
 
-                if accumulated_cnt == backward_steps or i == Inject_timesteps - 1:
-                    latents += backward_v
-                    accumulated_cnt = 0
-                    backward_v = torch.zeros_like(latents)
+                latents = controller.post_step(i, latents)  # path compensation
 
 
                 if latents.dtype != latents_dtype:
