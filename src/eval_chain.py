@@ -17,6 +17,7 @@ The GPT-4o based metrics of FreqEdit (instruction following, consistency, qualit
 Usage:
     python eval_chain.py "output/*/*" --summary output/summary.csv
     python eval_chain.py "output/*/*" --extra --regions regions.json --summary output/summary_extra.csv
+    python eval_chain.py "output/*/*" --reuse --summary output/summary.csv   # skip runs that already have metrics.json
 
 Writes metrics.json / metrics.csv in every run folder, and with --summary:
     summary.csv         every image, run and turn in one table
@@ -209,25 +210,41 @@ def main():
     ap.add_argument("--no-lpips", action="store_true")
     ap.add_argument("--no-clip", action="store_true")
     ap.add_argument("--no-dino", action="store_true")
+    ap.add_argument("--reuse", action="store_true", help="read existing metrics.json (same --extra) instead of recomputing")
     args = ap.parse_args()
 
     run_dirs = sorted({d for pat in args.runs for d in glob.glob(pat) if os.path.isdir(d)})
     all_regions = json.load(open(args.regions)) if args.regions else {}
     deep = Deep(args.device, not args.no_lpips, not args.no_clip, not args.no_dino)
 
-    summary = []
+    summary, skipped = [], []
     for run_dir in run_dirs:
         image = os.path.basename(os.path.dirname(os.path.normpath(run_dir)))
         run = os.path.basename(os.path.normpath(run_dir))
         regions = all_regions.get(image, {})
         print(f"{image}/{run}" + (f"  regions: {list(regions)}" if args.extra and regions else ""))
-        rows = eval_run(run_dir, deep, regions, args.extra)
+        mpath = os.path.join(run_dir, "metrics.json")
+        if args.reuse and os.path.exists(mpath):
+            old = json.load(open(mpath))
+            n_turns = len(glob.glob(os.path.join(run_dir, "turn_*.png"))) - 1
+            if old.get("extra") == args.extra and len(old["turns"]) == n_turns:
+                print("  reused metrics.json")
+                summary += [{"image": image, "run": run, **r} for r in old["turns"]]
+                continue
+        try:
+            rows = eval_run(run_dir, deep, regions, args.extra)
+        except (FileNotFoundError, ValueError) as e:
+            print(f"  SKIP {e}")
+            skipped.append(run_dir)
+            continue
         with open(os.path.join(run_dir, "metrics.json"), "w") as f:
             json.dump(dict(image=image, run=run, extra=args.extra, regions=regions if args.extra else {},
                            turns=rows), f, indent=2)
         write_csv(os.path.join(run_dir, "metrics.csv"), rows)
         summary += [{"image": image, "run": run, **r} for r in rows]
 
+    if skipped:
+        print(f"\nskipped {len(skipped)} runs:\n  " + "\n  ".join(skipped))
     if args.summary and summary:
         write_csv(args.summary, summary)
         table_path = os.path.join(os.path.dirname(args.summary) or ".", "summary_table.csv")
